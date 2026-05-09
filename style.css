@@ -1,0 +1,525 @@
+/* --- VARIABLES DE DISEÑO --- */
+:root {
+    --primary: #4a90e2;
+    --primary-dark: #357abd;
+    --secondary: #6c757d;
+    --secondary-dark: #545b62;
+    --info: #d0d0d0;
+    --success: #28a745;
+    --danger: #dc3545;
+    --highlight: #e6f300;
+    --background: #f8f9fa;
+    --text: #333;
+    --white: #ffffff;
+    --shadow: 0 4px 6px #0000001a;
+}
+
+/* --- RESET Y BASE --- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    background-color: var(--background);
+    color: var(--text);
+    line-height: 1.6;
+}
+
+.hidden {
+    display: none !important;
+}
+
+
+/* --- NAVEGACIÓN --- */
+nav {
+    background: var(--primary);
+    color: var(--white);
+    padding: 1rem;
+    text-align: center;
+    box-shadow: var(--shadow);
+}
+
+nav h1 {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+/* --- CONTENEDORES --- */
+.view {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.card {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: var(--shadow);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* --- BOTONES GENERALES --- */
+button {
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .1s ease;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+/* Botones (Menú Principal) */
+.menu button {
+    background: var(--primary);
+    color: var(--white);
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.menu button:hover {
+    background: var(--primary-dark);
+}
+
+
+/* Botón reintentar (Azul) */
+.menu .btn-reintentar {
+    margin-top: 15px;
+    width: auto;
+}
+
+/* Botón de Volver (Gris) */
+button.back-btn {
+    background: var(--secondary);
+    color: var(--white);
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+    width: auto;
+}
+
+button.back-btn:hover {
+    background: var(--secondary-dark);
+}
+
+
+/* --- FLASHCARDS ANIMACIÓN --- */
+.flashcard-container {
+    perspective: 1000px;
+    margin: 2rem 0;
+}
+
+.flashcard {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+}
+
+.flashcard.flipped {
+    transform: rotateY(180deg);
+}
+
+.filter-toggle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #eee;
+    padding: 5px 12px;
+    border-radius: 20px;
+}
+
+.filter-label {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: var(--secondary);
+}
+
+/* Estetica del Switch */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 34px;
+    height: 20px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked+.slider {
+    background-color: var(--primary);
+}
+
+input:checked+.slider:before {
+    transform: translateX(14px);
+}
+
+
+.card-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+}
+
+.card-face.front {
+    background: var(--white);
+    border: 2px solid var(--primary);
+    padding-bottom: -40px;
+}
+
+.card-header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+/* Creamos tres contenedores invisibles con el mismo ancho */
+.card-header>div,
+.card-header>button,
+.card-header>h3 {
+    flex: 1;
+    /* Esto obliga a que los 3 ocupen exactamente el 33.3% del ancho */
+    display: flex;
+    margin: 0;
+}
+
+#study-word-en {
+    color: var(--primary);
+    text-transform: capitalize;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.card-face.back {
+    background: var(--primary);
+    color: var(--white);
+    transform: rotateY(180deg);
+}
+
+.fav-badge {
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #ffc107;
+    transition: transform 0.2s;
+    justify-content: flex-start;
+    z-index: 10;
+}
+
+.fav-badge:hover {
+    transform: scale(1.2);
+}
+
+.audio-btn {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 5px;
+    transition: transform 0.3s;
+    z-index: 10;
+    justify-content: center;
+}
+
+.audio-btn:active {
+    transform: scale(0.95);
+}
+
+.type-badge {
+    padding: 5px;
+    font-size: 0.7rem;
+    color: var(--primary);
+    margin: 0;
+    justify-content: flex-end;
+    z-index: 10;
+}
+
+.tap-hint {
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    color: var(--secondary);
+}
+
+#study-word-es {
+    color: var(--highlight);
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.example-box {
+    margin-top: 25px;
+}
+
+.study-controls {
+    display: flex;
+    justify-content: center;
+}
+
+.study-controls button {
+    margin: 0 15px;
+}
+
+.study-controls button:hover {
+    background-color: var(--info);
+    transform: scale(0.98);
+}
+
+
+
+/* --- SELECCIÓN DE JUEGOS --- */
+.btn-game {
+    background: var(--white);
+    color: var(--text);
+    border: 2px solid var(--primary);
+    padding: 1.5rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.btn-game span {
+    font-size: 0.85rem;
+    font-weight: normal;
+    color: var(--info);
+    margin-top: 15px;
+}
+
+.btn-game:hover {
+    background: #eef6ff;
+    border-color: var(--primary-dark);
+}
+
+
+/* --- LÓGICA DEL QUIZ OPTIONS --- */
+.quiz-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+#high-score-quiz {
+    color: var(--primary);
+}
+
+#q-word {
+    text-transform: capitalize;
+}
+
+.options-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.btn-option {
+    background: #f0f2f5;
+    color: var(--text);
+    border: 2px solid transparent;
+    width: 100%;
+}
+
+.btn-option:hover {
+    background: #e2e6ea;
+    border-color: var(--primary);
+}
+
+/* Feedback de colores */
+.btn-option.correct {
+    background-color: var(--success) !important;
+    color: white;
+}
+
+.btn-option.incorrect {
+    background-color: var(--danger) !important;
+    color: white;
+}
+
+#game-over-screen {
+    z-index: 10;
+}
+
+#correct-answer-info {
+    margin: 15px 0px;
+    padding: 1rem;
+    background: #fff3cd;
+    border-radius: 10px;
+    border: 1px solid #ffeeba;
+}
+
+#correct-answer-info h3 {
+    color: var(--primary);
+    text-transform: capitalize;
+}
+
+#correct-answer-info p {
+    font-size: 0.9rem;
+    color: var(--secondary-dark);
+    margin-bottom: 0.5rem;
+}
+
+/* LOGICA DE QUIZ 30*/
+.score-badge {
+    background: var(--primary);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+}
+
+#q30-game-over .card p{
+    margin: 15px 0;
+}
+
+#q30-timer {
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+/* Animación de parpadeo cuando queda poco tiempo */
+.low-time {
+    animation: pulse-red 0.5s infinite;
+}
+
+@keyframes pulse-red {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.3);
+        color: rgb(156, 0, 0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+/* --- LANDING / PALABRA DEL DÍA --- */
+#daily-card {
+    position: relative;
+    /* Esto le dice a la estrella que se alinee respecto a la card y no a toda la pantalla */
+}
+
+/* Estilo específico para la estrella de la Landing */
+#fav-daily {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    line-height: 1;
+    transition: transform 0.2s ease;
+    z-index: 5;
+}
+
+
+.card h2 {
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+}
+
+.card h3 {
+    font-size: 0.9rem;
+    color: var(--secondary);
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+#word-en {
+    text-transform: capitalize;
+}
+
+#word-type {
+    color: var(--secondary);
+}
+
+.card .reveal-text {
+    margin-top: 1rem;
+    padding: 12px;
+    background: #eef2f7;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--secondary);
+}
+
+.high-score-label {
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: var(--secondary);
+}
+
+
+
+
+/* --- RESPONSIVE --- */
+@media (min-width: 600px) {
+    .options-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}

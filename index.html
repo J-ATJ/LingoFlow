@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LingoFlow - Aprende Inglés</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <h1 onclick="showSection('landing')" style="cursor:pointer">LingoFlow</h1>
+    </nav>
+
+    <section id="landing" class="view">
+        <div id="daily-card" class="card">
+            <div id="fav-daily" class="fav-badge" onclick="toggleDailyFavorite()">
+                ☆
+            </div>
+            <h3>Palabra del día</h3>
+            <h2 id="word-en">---</h2>
+            <p id="word-type">---</p>
+            <p id="word-es" class="reveal-text">Click para revelar</p>
+        </div>
+        <div class="menu">
+            <button onclick="showSection('aprender')">📚 Aprender</button>
+            <button onclick="showSection('jugar')">🎮 Jugar</button>
+        </div>
+    </section>
+
+    <section id="aprender" class="view hidden">
+        <div class="quiz-header">
+            <button class="back-btn" onclick="showSection('landing')">⬅ Volver</button>
+
+            <div class="filter-toggle">
+                <label class="switch">
+                    <input type="checkbox" id="fav-filter-check" onclick="toggleFavMode()">
+                    <span class="slider round"></span>
+                </label>
+                <span class="filter-label">Favoritas</span>
+            </div>
+            <span id="card-counter">1/...</span>
+        </div>
+
+        <div class="flashcard-container">
+            <div class="flashcard" id="main-card" onclick="this.classList.toggle('flipped')">
+
+                <div class="card-face front">
+                    <div class="card-header">
+                        <div class="fav-badge" id="fav-btn" onclick="toggleFavorite(event)">☆</div>
+
+                        <button class="audio-btn" onclick="playCurrentWord(event)">🔊</button>
+
+                        <h3 class="type-badge" id="study-type">Verb</h3>
+                    </div>
+
+                    <h2 id="study-word-en">Word</h2>
+                    <p class="tap-hint">Toca para ver la traducción</p>
+                </div>
+
+                <div class="card-face back">
+                    <h2 id="study-word-es">Palabra</h2>
+                    <div class="example-box">
+                        <p><strong>Ejemplo:</strong></p>
+                        <p id="study-example">Aquí aparecerá un ejemplo de uso...</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="study-controls">
+            <button class="btn-main" onclick="prevCard()">⬅ Anterior</button>
+            <button class="btn-main" onclick="nextCard()">Siguiente ➡</button>
+        </div>
+    </section>
+
+    <section id="jugar" class="view hidden">
+        <button class="back-btn" onclick="showSection('landing')">⬅ Volver al Inicio</button>
+        <br>
+        <br>
+        <h2>Selecciona un Reto</h2>
+        <br>
+        <div class="menu">
+            <button class="btn-game" onclick="openGame('quiz-options')">
+                🎯 Quiz de 4 opciones
+                <span>Acierta la definición correcta</span>
+            </button>
+
+            <button class="btn-game" onclick="openGame('hangman')">
+                😵 Ahorcado
+                <span>Adivina la palabra letra a letra</span>
+            </button>
+
+            <button class="btn-game" onclick="openGame('quiz-30')">
+                ⏰ 30 Segundos!
+                <span>Contesta las más que puedas antes de que termine el tiempo</span>
+            </button>
+
+        </div>
+    </section>
+
+    <section id="game-quiz-options" class="view hidden">
+        <div class="quiz-header">
+            <button class="back-btn" onclick="showSection('jugar')">⬅ Salir del Juego</button>
+            <div class="stats">
+                <span>Récord: <span id="high-score-quiz">0</span></span>
+                <span id="score-quiz">Puntos: 0</span>
+            </div>
+        </div>
+        <div class="card">
+            <h2 id="q-word">...</h2>
+            <div class="options-grid"></div>
+            <div id="quiz-options-grid" class="options-grid"></div>
+        </div>
+        <div id="game-over-screen" class="hidden">
+            <div class="card">
+                <h2>¡Game Over!</h2>
+                <p>Puntuación final: <span id="final-score">0</span></p>
+                <div id="correct-answer-info">
+                    <h3 id="correct-word-en">Word</h3>
+                    <p id="correct-word-es" style="font-weight: bold;">Significado</p>
+                </div>
+                <div class="menu">
+                    <button class="btn-reintentar" onclick="initQuizOptions()">Reintentar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="game-quiz-30" class="view">
+        <div class="quiz-header">
+            <button class="back-btn" onclick="showSection('jugar')">⬅ Salir</button>
+            <div class="stats">
+                <div>Tiempo: <span id="q30-timer" style="color: var(--danger);">30</span></div>
+                <div>Vidas: <span id="q30-lives">❤❤❤</span></div>
+                <div>Récord: <span id="high-score-q30">0</span></div>
+            </div>
+        </div>
+
+        <div class="card" id="q30-card">
+            <div class="score-badge">Puntos: <span id="score-q30">0</span></div>
+            <h3>¿Cómo se traduce?</h3>
+            <h2 id="q30-word">Word</h2>
+
+            <div id="q30-options-grid" class="options-grid">
+            </div>
+        </div>
+
+        <div id="q30-game-over" class="hidden">
+            <div class="card">
+                <h2>¡Tiempo agotado! ⏰</h2>
+                <p>Puntuación final: <strong id="q30-final-score">0</strong></p>
+                <p>Mejor puntuación: <strong id="q30-best-score">0</strong></p>
+                <div class="menu">
+                    <button class="btn-reintentar" onclick="initQuiz30()">Reintentar</button>
+                </div>
+            </div>
+    </section>
+
+    <script src="db.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/quiz-options.js"></script>
+    <script src="js/quiz30.js"></script>
+    <script src="js/learn.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
