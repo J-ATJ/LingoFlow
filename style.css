@@ -250,9 +250,10 @@ input:checked+.slider:before {
     font-size: 1.5rem;
     cursor: pointer;
     color: #ffc107;
-    transition: transform 0.2s;
+    transition: transform 0.2s ease;
     justify-content: flex-start;
     z-index: 10;
+    transform-origin: left center;
 }
 
 .fav-badge:hover {
