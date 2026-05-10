@@ -10,8 +10,11 @@
 
 <body>
 
-    <nav>
-        <h1 onclick="showSection('landing')" style="cursor:pointer">LingoFlow</h1>
+    <nav class="main-nav">
+        <h1 onclick="showSection('landing')">LingoFlow</h1>
+        <button id="dark-mode-toggle" class="btn-theme" onclick="toggleDarkMode()">
+            <span id="theme-icon">🌙</span>
+        </button>
     </nav>
 
     <section id="landing" class="view">
@@ -32,7 +35,7 @@
 
     <section id="aprender" class="view hidden">
         <div class="quiz-header">
-            <button class="back-btn" onclick="showSection('landing')">⬅ Volver</button>
+            <button class="back-btn" onclick="showSection('landing')">Volver</button>
 
             <div class="filter-toggle">
                 <label class="switch">
@@ -72,13 +75,13 @@
         </div>
 
         <div class="study-controls">
-            <button class="btn-main" onclick="prevCard()">⬅ Anterior</button>
-            <button class="btn-main" onclick="nextCard()">Siguiente ➡</button>
+            <button class="btn-main" onclick="prevCard()">Anterior</button>
+            <button class="btn-main" onclick="nextCard()">Siguiente</button>
         </div>
     </section>
 
     <section id="jugar" class="view hidden">
-        <button class="back-btn" onclick="showSection('landing')">⬅ Volver al Inicio</button>
+        <button class="back-btn" onclick="showSection('landing')">Volver al Inicio</button>
         <br>
         <br>
         <h2>Selecciona un Reto</h2>
@@ -104,7 +107,7 @@
 
     <section id="game-quiz-options" class="view hidden">
         <div class="quiz-header">
-            <button class="back-btn" onclick="showSection('jugar')">⬅ Salir del Juego</button>
+            <button class="back-btn" onclick="showSection('jugar')">Salir del Juego</button>
             <div class="stats">
                 <span>Récord: <span id="high-score-quiz">0</span></span>
                 <span id="score-quiz">Puntos: 0</span>
@@ -130,12 +133,50 @@
         </div>
     </section>
 
+    <section id="game-hangman" class="view hidden">
+        <div class="quiz-header">
+            <button class="back-btn" onclick="showSection('jugar')">Salir</button>
+            <div class="stats">
+                <span id="hangman-spa-hint" style="color: var(--secondary); font-size: 0.8rem;">Traducción: ...</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div id="divCanvas">
+                <canvas id="hangmanCanvas" width="250" height="250"></canvas>
+            </div>
+
+            <div id="word-display" class="hangman-word">
+                <!-- Aquí se generarán los guiones -->
+            </div>
+
+            <div id="used-letters" class="used-letters">
+                <!-- Letras incorrectas -->
+            </div>
+
+            <div id="hangman-keyboard" class="keyboard-grid"></div>
+
+        </div>
+
+        <!-- Pantalla de Game Over del Ahorcado -->
+        <div id="hangman-over" class="hidden">
+            <div class="card">
+                <h2 id="hangman-result-title">¡Fin del juego!</h2>
+
+                <p>La palabra era: <strong id="hangman-correct-word">---</strong></p>
+                <div class="menu">
+                    <button class="btn-reintentar" onclick="initHangman()">Jugar de nuevo</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="game-quiz-30" class="view">
         <div class="quiz-header">
-            <button class="back-btn" onclick="showSection('jugar')">⬅ Salir</button>
+            <button class="back-btn" onclick="showSection('jugar')">Salir</button>
             <div class="stats">
                 <div>Tiempo: <span id="q30-timer" style="color: var(--danger);">30</span></div>
-                <div>Vidas: <span id="q30-lives">❤❤❤</span></div>
+                <div>Vidas: <span id="q30-lives">❤ ❤ ❤</span></div>
                 <div>Récord: <span id="high-score-q30">0</span></div>
             </div>
         </div>
@@ -163,6 +204,7 @@
     <script src="db.js"></script>
     <script src="js/storage.js"></script>
     <script src="js/quiz-options.js"></script>
+    <script src="js/hangman.js"></script>
     <script src="js/quiz30.js"></script>
     <script src="js/learn.js"></script>
     <script src="js/main.js"></script>

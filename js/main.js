@@ -28,6 +28,8 @@ function openGame(gameId) {
         initQuizOptions();
     } else if (gameId === 'quiz-30') {
         initQuiz30();
+    } else if (gameId === 'hangman') {
+        initHangman();
     }
 
     // Aquí irás sumando otros juegos: else if (gameId === 'hangman') ...
@@ -65,6 +67,14 @@ function updateLandingStats() {
 
 // 5. ÚNICO punto de entrada al cargar la página
 window.onload = () => {
+    
+    // IMPORTANTE: Agrega esto al inicio de tu window.onload para que recuerde el tema
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme === 'dark') {
+        document.body.classList.add('dark-mode');
+        document.getElementById('theme-icon').innerText = '☀️';
+    }
+
     // Ejecutamos la lógica de datos
     initDailyWord();
     updateLandingStats();
@@ -78,7 +88,12 @@ window.onload = () => {
         // Si el usuario refrescó estando dentro del quiz, lo reactivamos
         if (lastSection === 'game-quiz-options') {
             initQuizOptions();
+        } else if (lastSection === 'game-hangman') {
+            initHangman();
+        } else if (lastSection === 'game-quiz-30') {
+            initQuiz30();
         }
+
     } else {
         showSection('landing');
     }
@@ -112,3 +127,17 @@ function updateDailyFavIcon() {
     const favorites = JSON.parse(localStorage.getItem('lingo_favs')) || [];
     favBtn.innerText = favorites.includes(daily.english) ? '★' : '☆';
 }
+
+
+
+function toggleDarkMode() {
+    const body = document.body;
+    const themeIcon = document.getElementById('theme-icon');
+
+    body.classList.toggle('dark-mode');
+
+    const isDark = body.classList.contains('dark-mode');
+    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+    themeIcon.innerText = isDark ? '☀️' : '🌙';
+}
+

@@ -1,4912 +1,4922 @@
 let db = [
   {
     "english": "tepid",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "tibio, templado"
   },
   {
     "english": "swollen",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "hinchado o inflamado"
   },
   {
     "english": "hell-bent (on doing sth)",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "empeñado en"
   },
   {
     "english": "wink",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "guiñar el ojo"
   },
   {
     "english": "debunk",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "desacreditar o desprestigiar"
   },
   {
     "english": "recruit",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "reclutar"
   },
   {
     "english": "likelihood",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "probabilidad (de que algo pase)"
   },
   {
     "english": "oversight",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "descuido"
   },
   {
     "english": "overtone",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "trasfondo"
   },
   {
     "english": "hasten",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "apresurarse, acelerar"
   },
   {
     "english": "dodge",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "esquivar o evadir algo de manera casi inmediata"
   },
   {
     "english": "cunning",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "astuto, pícaro"
   },
   {
     "english": "evade",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "evadir (connotación ilegal o inmoral, siempre es intencional)"
   },
   {
     "english": "blunt",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "ser muy directo al hablar sin ser cortés o sin delicadeza; también: sin filo o desafilado"
   },
   {
     "english": "stale",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "duro, rancio (especialmente panes)"
   },
   {
     "english": "harvest",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "cosechar; también: cosecha"
   },
   {
     "english": "sow",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "sembrar"
   },
   {
     "english": "folded",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "doblado, plegado"
   },
   {
     "english": "in bulk",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "al por mayor, a granel"
   },
   {
     "english": "unanimous",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "unánime"
   },
   {
     "english": "slice",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "rebanada, tajada, parte (de comida o dinero)"
   },
   {
     "english": "fond of sb/sth",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "tenerle cariño a alguien o ser aficionado a algo"
   },
   {
     "english": "built-in",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "empotrado, incorporado en una estructura"
   },
   {
     "english": "musty",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "con olor a humedad"
   },
   {
     "english": "scrub",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "fregar, limpiar con fuerza"
   },
   {
     "english": "rub",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "frotar, restregar"
   },
   {
     "english": "skim",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "leer por encima, echar un vistazo; también: rozar una superficie"
   },
   {
     "english": "graze",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "rasguñar; también: rasguño"
   },
   {
     "english": "rancid",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "rancio (especialmente con mantequilla)"
   },
   {
     "english": "sour",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "agrio, ácido (leche cortada)"
   },
   {
     "english": "engaging",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "cautivador, atractivo"
   },
   {
     "english": "underlying",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "fundamental, esencial"
   },
   {
     "english": "outspoken",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "decir exactamente lo que uno piensa sin importar que pueda llegar a ofender a los demás"
   },
   {
     "english": "elude",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "eludir, evitar (connotación de astucia)"
   },
   {
     "english": "overcast",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "nublado"
   },
   {
     "english": "sleeve",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "manga de ropa"
   },
   {
     "english": "spouse",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "cónyuge, esposo/a"
   },
   {
     "english": "unfaithful",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "infiel"
   },
   {
     "english": "unstable",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "inestable, poco firme"
   },
   {
     "english": "belt",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "cinturón"
   },
   {
     "english": "flair",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "estilo; también: talento o don"
   },
   {
     "english": "undeniable",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "innegable, indiscutible"
   },
   {
     "english": "comprise",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "constituir, constar de, comprender (cosas que pertenecen a algo)"
   },
   {
     "english": "adhere to sth",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "adherirse a ciertas reglas o principios"
   },
   {
     "english": "attach",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "adjuntar, pegar"
   },
   {
     "english": "heartbraking",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "desgarrador"
   },
   {
     "english": "ache",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "doler; también: dolor"
   },
   {
     "english": "in a nutshell",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "en resumidas cuentas, en pocas palabras"
   },
   {
     "english": "churn rate",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "porcentaje de clientes que dejan de comprar a una empresa"
   },
   {
     "english": "underdone",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "poco cocido, casi crudo"
   },
   {
     "english": "upbringing",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "crianza, educación de pequeño"
   },
   {
     "english": "put sth down to sth",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "atribuir algo a otra cosa"
   },
   {
     "english": "bear in mind",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "tener en cuenta, recordar"
   },
   {
     "english": "dough",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "masa, pasta"
   },
   {
     "english": "grilled",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "asado a la parrilla"
   },
   {
     "english": "blitz",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "bombardear; también: bombardeo"
   },
   {
     "english": "stuffed animals",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "animales de peluche, peluches"
   },
   {
     "english": "summit",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "cumbre (de montaña o reunión de líderes), cima"
   },
   {
     "english": "bill",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "proyecto de ley"
   },
   {
     "english": "roll over",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "aceptar lo que otro dice cuando se está bajo presión"
   },
   {
     "english": "plumber",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "plomero, fontanero"
   },
   {
     "english": "persistence",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "persistencia, empeño, perseverancia"
   },
   {
     "english": "sniff",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "olfatear"
   },
   {
     "english": "impudent",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "insolente"
   },
   {
     "english": "bangs",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "flequillo, fleco"
   },
   {
     "english": "shameless",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "descarado, sinvergüenza"
   },
   {
     "english": "thruthfulness",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "veracidad"
   },
   {
     "english": "bear with sb",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "tener paciencia, esperar"
   },
   {
     "english": "hectic",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "ajetreado, agitado, con muchos deberes"
   },
   {
     "english": "pot",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "olla, cazuela, caldero"
   },
   {
     "english": "joint",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "articulación; también: bar o restaurante barato"
   },
   {
     "english": "lens",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "lente de cámara"
   },
   {
     "english": "insole",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "plantilla de zapato"
   },
   {
     "english": "deny",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "negar"
   },
   {
     "english": "crescent",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "medialuna"
   },
   {
     "english": "hunch",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "corazonada, presentimiento"
   },
   {
     "english": "decive",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "engañar"
   },
   {
     "english": "powdered",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "en polvo"
   },
   {
     "english": "make it up to sb",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "compensar (para hacer las paces o pedir perdón)"
   },
   {
     "english": "discontinued",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "descontinuado"
   },
   {
     "english": "baggage",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "equipaje"
   },
   {
     "english": "cherish",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "apreciar, valorar, estimar, conservar en la mente un recuerdo valioso"
   },
   {
     "english": "kite",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "cometa, papalote"
   },
   {
     "english": "sore throat",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "dolor de garganta"
   },
   {
     "english": "dip",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "sumergir o mojar algo rápidamente"
   },
   {
     "english": "slippery",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "resbaladizo"
   },
   {
     "english": "tease",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "burlarse, molestar, bromear"
   },
   {
     "english": "sweat",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "sudor"
   },
   {
     "english": "wipe",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "secar, limpiar, eliminar"
   },
   {
     "english": "sting",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "picar (insecto); también: picadura"
   },
   {
     "english": "eyelid",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "párpados"
   },
   {
     "english": "scared",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "asustado"
   },
   {
     "english": "to hail sb",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "alabar a alguien"
   },
   {
     "english": "whirlwind",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "torbellino, relámpago"
   },
   {
     "english": "scent",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "olor, aroma"
   },
   {
     "english": "hunt sb down",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "perseguir a alguien hasta encontrarlo"
   },
   {
     "english": "an awful lot",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "muchísimo, un montón"
   },
   {
     "english": "ashamed of",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "avergonzado de"
   },
   {
     "english": "steeper",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "empinado"
   },
   {
     "english": "bash",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "golper violentamente, machacar"
   },
   {
     "english": "treason",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "traición"
   },
   {
     "english": "uphill",
-    "type": "(adj/adv)",
+    "type": "(adjective/adverb)",
     "spanish": "cuesta arriba; también: arduo"
   },
   {
     "english": "masses",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "las masas (personas)"
   },
   {
     "english": "vicious",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "brutal, despiadado"
   },
   {
     "english": "spare sb's life",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "perdonar la vida"
   },
   {
     "english": "swear",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "jurar, maldecir, prometer"
   },
   {
     "english": "groove",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "ranura, surco"
   },
   {
     "english": "jam-packed",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "repleto, lleno"
   },
   {
     "english": "mob",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "multitud, muchedumbre"
   },
   {
     "english": "vacay",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "vacaciones"
   },
   {
     "english": "suitcase",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "maleta"
   },
   {
     "english": "aside/aside from",
-    "type": "(adv)",
+    "type": "(adverb)",
     "spanish": "a un lado; también: aparte de"
   },
   {
     "english": "messy",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "desordenado"
   },
   {
     "english": "tidy",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "ordenado"
   },
   {
     "english": "rumpus",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "revuelo, alboroto"
   },
   {
     "english": "astonish",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "asombrar, sorprender"
   },
   {
     "english": "burdening",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "agobiante"
   },
   {
     "english": "burden",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "carga o responsabilidad con la que se tiene que lidiar"
   },
   {
     "english": "shuffle",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "arrastrar los pies; también: barajar o mezclar"
   },
   {
     "english": "dumbfounded",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "atónito, estupefacto, anonadado, sin poder hablar"
   },
   {
     "english": "improve on sth",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "hacer algo mejor que antes"
   },
   {
     "english": "tan",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "el bronceado"
   },
   {
     "english": "tanned",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "estar bronceado por el sol"
   },
   {
     "english": "gate",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "puerta"
   },
   {
     "english": "claim",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "afirmar, reclamar, atribuirse"
   },
   {
     "english": "feat",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "hazaña, proeza"
   },
   {
     "english": "command",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "orden, comando, instrucción"
   },
   {
     "english": "take sb down",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "matar, derrotar"
   },
   {
     "english": "full-blown",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "en estado avanzado, al completo, completamente desarrollado"
   },
   {
     "english": "strife",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "conflicto, lucha"
   },
   {
     "english": "speak one's mind",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "hablar sin rodeos, decir lo que uno piensa"
   },
   {
     "english": "add-ons",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "complementos extra"
   },
   {
     "english": "treachery",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "traición"
   },
   {
     "english": "effortlessly",
-    "type": "(adv)",
+    "type": "(adverb)",
     "spanish": "sin efuerzo"
   },
   {
     "english": "fading out",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "desaparecerse, desvanecerse, dejar poco a poco de oirse"
   },
   {
     "english": "cheesy",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "cursi"
   },
   {
     "english": "deduct",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "deducir, descontar"
   },
   {
     "english": "underwhelming",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "decepcionante"
   },
   {
     "english": "have sth under the belt",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "en su haber"
   },
   {
     "english": "box-office",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "taquilla (cine)"
   },
   {
     "english": "nephew/niece",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "el sobrino/la sobrina"
   },
   {
     "english": "disown",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "renegar, desconocer, desheredar"
   },
   {
     "english": "outcast",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "marginado"
   },
   {
     "english": "heir",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "heredero"
   },
   {
     "english": "give in to sth",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "ceder ante"
   },
   {
     "english": "concede",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "admitir, reconocer, conceder, aceptar"
   },
   {
     "english": "embark on",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "embarcarse en, emprender"
   },
   {
     "english": "loose",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "flojo, holgado, suelto"
   },
   {
     "english": "once and for all",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "de una vez por todas"
   },
   {
     "english": "yell",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "gritar, chillar"
   },
   {
     "english": "endeavour",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "tratar de, intentar, esforzarse; también: esfuerzo(s)"
   },
   {
     "english": "impromptu",
-    "type": "(adj/adv)",
+    "type": "(adjective/adverb)",
     "spanish": "improvisado; también: improvisadamente"
   },
   {
     "english": "kettle",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "tetera, hervidor de agua"
   },
   {
     "english": "hereby",
-    "type": "(adv)",
+    "type": "(adverb)",
     "spanish": "por la presente (por este medio)"
   },
   {
     "english": "plead",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "hacer una declaración (declararse), también: suplicar o implorar"
   },
   {
     "english": "binge watching",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "(ver un) maratón de series"
   },
   {
     "english": "munch",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "masticar ruidosamente"
   },
   {
     "english": "poll numbers",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "números de encuestas"
   },
   {
     "english": "take sth by storm",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "ser exitoso rápidamente en algún lugar"
   },
   {
     "english": "witness",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "presenciar algo; también: testigo"
   },
   {
     "english": "bargain",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "regatear, negociar"
   },
   {
     "english": "grapes",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "uvas"
   },
   {
     "english": "tepidly",
-    "type": "(adv)",
+    "type": "(adverb)",
     "spanish": "sin entusiasmo"
   },
   {
     "english": "overseas",
-    "type": "(adv)",
+    "type": "(adverb)",
     "spanish": "extranjero, en el extranjero"
   },
   {
     "english": "faint",
-    "type": "(v/adj)",
+    "type": "(verb/adjective)",
     "spanish": "desmayarse; también: ligero, casi imperceptible"
   },
   {
     "english": "espionage",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "espionaje"
   },
   {
     "english": "straightforward",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "sencillo, claro, directo"
   },
   {
     "english": "leap of faith",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "dar un salto de fé"
   },
   {
     "english": "decommision",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "retirar armas del servicio"
   },
   {
     "english": "leap",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "saltar velozmente"
   },
   {
     "english": "vine",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "vid (planta de uvas)"
   },
   {
     "english": "peg sb as sth",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "juzgar a alguien de cierta manera"
   },
   {
     "english": "spot on",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "muy acertado, justo en el blanco"
   },
   {
     "english": "nuke",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "arma nuclear"
   },
   {
     "english": "wrap up",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "abrigarse"
   },
   {
     "english": "relinquish",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "renunciar, abandonar"
   },
   {
     "english": "roam",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "deambular, vagar, recorrer"
   },
   {
     "english": "mesmerizing",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "fascinante, cautivante, hipnotizante"
   },
   {
     "english": "cuddle",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "abrazar"
   },
   {
     "english": "alienate",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "enajenar, alienar (hacer sentir que ya no se es parte de un grupo)"
   },
   {
     "english": "without further ado",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "sin más preámbulos, sin perder más tiempo"
   },
   {
     "english": "retreat",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "retirarse (huyendo); también: retirada, escape"
   },
   {
     "english": "mistreatment",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "maltrato"
   },
   {
     "english": "sacred",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "sagrado"
   },
   {
     "english": "rehearshal",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "ensayo"
   },
   {
     "english": "be at your wits' end",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "al borde de la desesperación"
   },
   {
     "english": "coin toss",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "lanzar una moneda, volado"
   },
   {
     "english": "goo",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "porquería"
   },
   {
     "english": "sticky",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "pegajoso, viscoso"
   },
   {
     "english": "bounce back",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "recuperarse después de algo"
   },
   {
     "english": "out of sorts",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "de mal humor"
   },
   {
     "english": "let off steam",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "liberar enojo o estrés"
   },
   {
     "english": "busted",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "roto, quebrado"
   },
   {
     "english": "hunk",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "trozo, pedazo"
   },
   {
     "english": "snazzy",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "elegante, moderno (adj informal)"
   },
   {
     "english": "mix it up",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "discutir con alguien"
   },
   {
     "english": "grunt",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "gruñir"
   },
   {
     "english": "get rid of sth",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "deshacerse de algo que no se quiere más"
   },
   {
     "english": "despair",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "desesperación"
   },
   {
     "english": "lunge",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "embestir; también: embestida"
   },
   {
     "english": "annihilation",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "aniquilación"
   },
   {
     "english": "wipe sth out",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "liquidar, eliminar"
   },
   {
     "english": "ivory",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "marfil"
   },
   {
     "english": "prissy",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "demasiado cuidadoso para comportarse siempre correctamente"
   },
   {
     "english": "diversion",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "una distracción"
   },
   {
     "english": "tale",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "cuento, fábula"
   },
   {
     "english": "last resort",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "última instancia, último recurso"
   },
   {
     "english": "fortress",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "fortaleza"
   },
   {
     "english": "ticklish",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "ser cosquilloso"
   },
   {
     "english": "pull over",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "mover o detener un vehículo a un lado del camino"
   },
   {
     "english": "give sth/sb a go",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "hacer el intento, dar una oportunidad o chance"
   },
   {
     "english": "appeal",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "apelar o reclamar; también: apelación"
   },
   {
     "english": "rescind",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "rescindir, anular"
   },
   {
     "english": "wounded",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "herido"
   },
   {
     "english": "stans",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "fans (excesivamente devotos)"
   },
   {
     "english": "newly",
-    "type": "(adv)",
+    "type": "(adverb)",
     "spanish": "recién"
   },
   {
     "english": "unbiased",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "imparcial, justo, sin prejuicios"
   },
   {
     "english": "rad",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "muy bueno, cool"
   },
   {
     "english": "foolhardy",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "imprudente, insensato"
   },
   {
     "english": "reckless",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "imprudente, temerario, insensato"
   },
   {
     "english": "dreary",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "aburrido, deprimente, triste"
   },
   {
     "english": "dull",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "aburrido"
   },
   {
     "english": "resentful",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "resentido, dolido"
   },
   {
     "english": "superb",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "magnífico, soberbio, espléndido"
   },
   {
     "english": "mend",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "arreglar"
   },
   {
     "english": "pour",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "verter, derramar"
   },
   {
     "english": "pit",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "hoyo, foza, pozo"
   },
   {
     "english": "pothole",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "bache"
   },
   {
     "english": "slide off",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "resbalar"
   },
   {
     "english": "hike",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "caminata, excursión"
   },
   {
     "english": "hurl",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "lanzar, tirar"
   },
   {
     "english": "lever",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "palanca"
   },
   {
     "english": "squirm",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "retorcerse"
   },
   {
     "english": "blur",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "difuminar, hacer menos claro algo"
   },
   {
     "english": "fare",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "la tarifa, pasaje o costo de un viaje"
   },
   {
     "english": "tear",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "rasgar; también: lágrima"
   },
   {
     "english": "flinch",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "estremecerse, retroceder (por miedo)"
   },
   {
     "english": "trek",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "caminata, expedición"
   },
   {
     "english": "plight",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "situación complicada o grave"
   },
   {
     "english": "claw",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "garra"
   },
   {
     "english": "brit",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "británico, ciudadano británico"
   },
   {
     "english": "drown",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "ahogarse"
   },
   {
     "english": "prowl",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "asechar, merodear"
   },
   {
     "english": "bruise",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "moretón"
   },
   {
     "english": "hose",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "manguera"
   },
   {
     "english": "boast",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "jactarse, presumir, alardear"
   },
   {
     "english": "slick",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "resbaladizo, pulido"
   },
   {
     "english": "lease",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "alquilar, arrendar"
   },
   {
     "english": "swift",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "rápido, veloz"
   },
   {
     "english": "seal",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "sellar; también: foca"
   },
   {
     "english": "dwell",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "morar, vivir, residir"
   },
   {
     "english": "reside",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "vivir, residir"
   },
   {
     "english": "fund",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "fondo de dinero"
   },
   {
     "english": "weep",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "llorar"
   },
   {
     "english": "crumple",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "arrugar"
   },
   {
     "english": "inward",
-    "type": "(adv)",
+    "type": "(adverb)",
     "spanish": "interior, hacia adentro"
   },
   {
     "english": "mild",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "leve, suave"
   },
   {
     "english": "craze",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "moda, manía"
   },
   {
     "english": "whizzkid",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "niño prodigio"
   },
   {
     "english": "detrimental",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "perjudicial"
   },
   {
     "english": "ubiquitous",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "omnipresente, que está en todas partes"
   },
   {
     "english": "suitor",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "pretendiente"
   },
   {
     "english": "clash",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "enfrentar: también: enfrentamiento"
   },
   {
     "english": "ring off",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "colgar una llamada"
   },
   {
     "english": "hang up",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "colgar una llamada"
   },
   {
     "english": "get through",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "localizar a alguien por llamada; también: superar algo dificil"
   },
   {
     "english": "pad out",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "rellenar"
   },
   {
     "english": "see sb off",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "despedirse de alguien que se va"
   },
   {
     "english": "stop off",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "hacer una parada antes de llegar a su destino"
   },
   {
     "english": "touch down",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "aterrizar"
   },
   {
     "english": "snowed under",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "sobrecargado de trabajo"
   },
   {
     "english": "by and large",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "en general"
   },
   {
     "english": "close down",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "cerrar permanentemente un negocio"
   },
   {
     "english": "hand in your notice",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "presentar tu renuncia"
   },
   {
     "english": "denote",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "denotar"
   },
   {
     "english": "infiniteness",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "infinidad"
   },
   {
     "english": "deceptive",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "engañoso"
   },
   {
     "english": "closeness",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "cercanía, proximidad, estrecha relación"
   },
   {
     "english": "warrant",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "merecer o justificar; también: orden judicial"
   },
   {
     "english": "vent",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "dar salida a emociones negativas; también: conducto de ventilación"
   },
   {
     "english": "aptly",
-    "type": "(adv)",
+    "type": "(adverb)",
     "spanish": "acertadamente, de manera adecuada"
   },
   {
     "english": "sneakily",
-    "type": "(adv)",
+    "type": "(adverb)",
     "spanish": "a escondidas, secretamente"
   },
   {
     "english": "grin",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "sonreir; también: sonrisa (de oreja a oreja)"
   },
   {
     "english": "make sth up",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "inventar algo por ejemplo una excusa o historia"
   },
   {
     "english": "ad-lib",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "improvisar un discurso"
   },
   {
     "english": "on the surface",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "a primera vista, sin pensarlo detalladamente"
   },
   {
     "english": "make the  grade",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "estar a la altura, tener el nivel necesario"
   },
   {
     "english": "hit-or-miss",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "de resultado impredecible porque no se planeó bien"
   },
   {
     "english": "chill out",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "relajarse"
   },
   {
     "english": "courteous",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "gentil, cortés, educado"
   },
   {
     "english": "maiden",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "doncella"
   },
   {
     "english": "be tide up",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "estar atado o ligado"
   },
   {
     "english": "ceiling",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "techo"
   },
   {
     "english": "grasp",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "captar, entender algo completamente, tomar algo con la mano"
   },
   {
     "english": "novice",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "novato"
   },
   {
     "english": "pristine",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "impecable, inmaculado"
   },
   {
     "english": "tinker",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "hacer ligeras modificaciones"
   },
   {
     "english": "pump sb up",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "animar o hacer que alguien se sienta más confiado"
   },
   {
     "english": "fortify",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "fortalecer, dar más protección"
   },
   {
     "english": "frankly",
-    "type": "(adv)",
+    "type": "(adverb)",
     "spanish": "francamente, honestamente"
   },
   {
     "english": "fitting",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "oportuno, justo, apropiado"
   },
   {
     "english": "acknowledge",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "reconocer o aceptar algo"
   },
   {
     "english": "tack",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "rumbo o manera de hacer algo"
   },
   {
     "english": "debris",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "escombros, restos de algo"
   },
   {
     "english": "harassement",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "acoso"
   },
   {
     "english": "leakage",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "fuga"
   },
   {
     "english": "pull back",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "echarse para atrás con una decisión o declaración"
   },
   {
     "english": "pundit",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "persona experta en algo"
   },
   {
     "english": "pound",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "golpear, destrozar; también: libra (dinero y medida)"
   },
   {
     "english": "feud",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "disputa o pelea que ha durado mucho tiempo"
   },
   {
     "english": "smack",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "golpear con la palma de la mano"
   },
   {
     "english": "go Dutch",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "compartir el costo de algo (como una cena)"
   },
   {
     "english": "outcome",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "resultado"
   },
   {
     "english": "disheveled",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "despeinado, desarreglado"
   },
   {
     "english": "to cap it all",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "para colmo"
   },
   {
     "english": "chase",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "perseguir; también: persecución"
   },
   {
     "english": "dump",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "tirar o dejar caer algo; también: basurero"
   },
   {
     "english": "skedaddle",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "salir corriendo"
   },
   {
     "english": "bootleg",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "pirata o de contrabando"
   },
   {
     "english": "unsettled",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "incierto, inestable"
   },
   {
     "english": "down to the wire",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "con resultado decidido hasta el último momento"
   },
   {
     "english": "napkin",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "servilleta"
   },
   {
     "english": "outlaw",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "prohibir, hacer algo ilegal"
   },
   {
     "english": "rooting for",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "apoyar a un competidor o equipo"
   },
   {
     "english": "nail",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "lograr o hacer algo de manera exitosa"
   },
   {
     "english": "cap",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "poner un límite a la cantidad de dinero que se puede usar para algo"
   },
   {
     "english": "at stake",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "estar en juego o riesgo"
   },
   {
     "english": "indolent",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "con mucha falta de voluntad para hacer algo"
   },
   {
     "english": "enchance",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "mejorar, realzar"
   },
   {
     "english": "shed light on sth",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "esclarecer o hacer entender una cosa"
   },
   {
     "english": "pull off",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "tener éxito al hacer algo sumamente dificil"
   },
   {
     "english": "thug",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "vándalo, malhechor, delincuente, matón"
   },
   {
     "english": "battered",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "maltratado o golpeado; también: estropeado, acabado"
   },
   {
     "english": "uneasy",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "inquieto, intranquilo, incómodo"
   },
   {
     "english": "bottom line",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "la conclusión, el balance final, lo escencial"
   },
   {
     "english": "have the floor",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "tener derecho a hablar durante una discusión o debate"
   },
   {
     "english": "drained",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "agotado o muy cansado"
   },
   {
     "english": "meltdown",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "colapso, debacle, crisis"
   },
   {
     "english": "bamboozle",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "confundir, engañar, embaucar"
   },
   {
     "english": "allude to sb/sth",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "referirse a alguien/algo"
   },
   {
     "english": "plunder",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "saquear, robar"
   },
   {
     "english": "duck out of sth",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "librarse de algo"
   },
   {
     "english": "jittery",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "nervioso"
   },
   {
     "english": "couch",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "sofá"
   },
   {
     "english": "mow",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "cortar césped"
   },
   {
     "english": "nurture",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "nutrir, criar, educar"
   },
   {
     "english": "blend",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "mezclar, combinar"
   },
   {
     "english": "thrive",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "prosperar, crecer"
   },
   {
     "english": "tackle",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "abordar una situación"
   },
   {
     "english": "span",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "abarcar, durar"
   },
   {
     "english": "thriving",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "próspero, floreciente"
   },
   {
     "english": "insurance",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "seguro (médico, vida, coches, etc..)"
   },
   {
     "english": "bachelor's degree",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "licenciatura, grado universitario"
   },
   {
     "english": "subtle",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "sutil"
   },
   {
     "english": "shallow",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "poco profundo, superficial"
   },
   {
     "english": "delve",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "hurgar, buscar, escarbar"
   },
   {
     "english": "blunder",
-    "type": "(v/n)",
-    "spanish": "cometer un error grave por descuido; también: error grave"
+    "type": "(verb/noun)",
+    "spanish": "cometer un error grave por descuido; también: error grave "
   },
   {
     "english": "silk",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "seda"
   },
   {
     "english": "cutting-edge",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "muy moderno, de vanguarda, de última generación"
   },
   {
     "english": "cumbersome",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "molesto, engorroso, incómodo"
   },
   {
     "english": "distinguish",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "distinguir"
   },
   {
     "english": "sigh",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "suspirar; también: suspiro"
   },
   {
     "english": "relief",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "alivio"
   },
   {
     "english": "shirk",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "eludir responsabilidades, trabajo, deberes"
   },
   {
     "english": "clasp",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "agarrar, estrechar; también: broche"
   },
   {
     "english": "buckle down",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "empezar a trabajar duro"
   },
   {
     "english": "reap",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "cosechar, obtener algo como resultado de tus acciones"
   },
   {
     "english": "gearbox",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "caja de cambios"
   },
   {
     "english": "headlights",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "faros de un vehículo"
   },
   {
     "english": "windshield",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "parabrisas"
   },
   {
     "english": "blinker",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "luces intermitentes de un vehículo"
   },
   {
     "english": "bundle",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "paquete, lote, fardo"
   },
   {
     "english": "steering wheel",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "volante"
   },
   {
     "english": "quirk",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "peculiaridad o hábito extraño de una persona"
   },
   {
     "english": "spare",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "extra"
   },
   {
     "english": "wring",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "escurrir, exprimir"
   },
   {
     "english": "feather",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "pluma (de ave)"
   },
   {
     "english": "tollbooth",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "caseta de cobro, cabina de peaje"
   },
   {
     "english": "make ends meet",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "llegar a fin de mes"
   },
   {
     "english": "rip sb off",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "timar, hacer pagar a alguien más de lo necesario"
   },
   {
     "english": "sprain",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "torcerse o esguinzarse; también: esguince"
   },
   {
     "english": "ribbon",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "cinta, listón"
   },
   {
     "english": "conceal",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "ocultar, disimular algo para que no sea visto"
   },
   {
     "english": "splash out sth",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "gastar mucho, gastar algo"
   },
   {
     "english": "fin",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "aleta, alerón"
   },
   {
     "english": "swap",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "intercambiar; también: intercambio"
   },
   {
     "english": "slipstream",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "estela de aire de un vehículo en movimiento"
   },
   {
     "english": "neat",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "limpio, ordenado, aseado, genial, claro"
   },
   {
     "english": "snatch",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "arrebatar, quitar algo con brusquedad"
   },
   {
     "english": "roughly",
-    "type": "(adv)",
+    "type": "(adverb)",
     "spanish": "bruscamente, de manera brusca"
   },
   {
     "english": "jeopardize",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "poner en peligro algo, arriesgar algo"
   },
   {
     "english": "tussle",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "pelear; también: pelea"
   },
   {
     "english": "stewards",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "comisario, administrador o encargado de un evento o lugar"
   },
   {
     "english": "cheery",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "alegre, lleno de alegría"
   },
   {
     "english": "burry",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "enterrar un cuerpo"
   },
   {
     "english": "bitterly",
-    "type": "(adv)",
+    "type": "(adverb)",
     "spanish": "amargamente, con amargura"
   },
   {
     "english": "accomplice",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "cómplice de un hecho ilegal"
   },
   {
     "english": "cease",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "cesar, suspender"
   },
   {
     "english": "corkscrew",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "sacacorchos"
   },
   {
     "english": "creep",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "arrastrarse, andar sigilosamente para no ser notado"
   },
   {
     "english": "crutch",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "muleta"
   },
   {
     "english": "deem",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "considerar o juzgar algo de cierta manera"
   },
   {
     "english": "dejected",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "decepcionado, sin esperanza"
   },
   {
     "english": "dew",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "rocío de agua"
   },
   {
     "english": "dismiss",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "despedir a alguien del trabajo"
   },
   {
     "english": "dreadful",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "espantoso, terrible, atroz"
   },
   {
     "english": "inquiry",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "consulta, investigación, indagación"
   },
   {
     "english": "scholarship",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "beca"
   },
   {
     "english": "fetch",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "ir por, ir a buscar"
   },
   {
     "english": "glance",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "echar un vistazo rápido"
   },
   {
     "english": "gloomy",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "melancólico, sombrío, lúgubre"
   },
   {
     "english": "make headway",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "hacer progresos, avanzar"
   },
   {
     "english": "hostage",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "rehén, persona secuestrada"
   },
   {
     "english": "fly into a rage",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "entrar en cólera, enojarse demasiado y rápidamente"
   },
   {
     "english": "loan",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "prestar; también: préstamo de dinero"
   },
   {
     "english": "loathe",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "odiar, aborrecer"
   },
   {
     "english": "mankind",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "la humanidad"
   },
   {
     "english": "aforementioned",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "ya dicho, anteriormente mencionado, susodicho"
   },
   {
     "english": "takeaway",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "comida para llevar"
   },
   {
     "english": "survey",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "encuesta"
   },
   {
     "english": "shatter",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "hacer añicos, destrozar"
   },
   {
     "english": "shave",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "afeitar, afeitarse"
   },
   {
     "english": "replace",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "reemplazar, sustituir"
   },
   {
     "english": "turf war",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "lucha por el control de un área o de una actividad"
   },
   {
     "english": "boardroom",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "sala de juntas"
   },
   {
     "english": "be/go against the grain",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "ir a contra corriente"
   },
   {
     "english": "downplay",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "restar importancia, minimizar un problema"
   },
   {
     "english": "luxury",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "lujo"
   },
   {
     "english": "enhance",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "mejorar, realzar"
   },
   {
     "english": "racy",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "subido de tono"
   },
   {
     "english": "enrage",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "enfurecer"
   },
   {
     "english": "flawed",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "con imperfecciones, defectuoso"
   },
   {
     "english": "superfluous",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "con extra o más de lo necesario"
   },
   {
     "english": "uppermost",
-    "type": "(adj/adv)",
+    "type": "(adjective/adverb)",
     "spanish": "por encima de todo; también: en primer plano"
   },
   {
     "english": "decry",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "condenar, criticar"
   },
   {
     "english": "endurance",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "aguante, resistencia"
   },
   {
     "english": "enduring",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "perdurable, duradero"
   },
   {
     "english": "the bottom line",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "lo esencial, lo más importante"
   },
   {
     "english": "data warehousing",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "el proceso de almacenar grandes volúmenes de información"
   },
   {
     "english": "lobster",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "langosta"
   },
   {
     "english": "swindler",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "estafador"
   },
   {
     "english": "black out",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "perder la conciencia"
   },
   {
     "english": "sunken",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "hundido, sumergido"
   },
   {
     "english": "ree",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "arrecife"
   },
   {
     "english": "seaweed",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "alga marina"
   },
   {
     "english": "flaunt",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "alardear, hacer alarde de algo"
   },
   {
     "english": "fast forward",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "avanzar rápido (dvd o cd)"
   },
   {
     "english": "dazed",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "aturdido, muy confundido, con expresión de duda"
   },
   {
     "english": "throb",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "palpitar"
   },
   {
     "english": "numb",
-    "type": "(v/adj)",
+    "type": "(verb/adjective)",
     "spanish": "entumecer; también: entumecido"
   },
   {
     "english": "hangover",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "resaca"
   },
   {
     "english": "manly",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "varonil"
   },
   {
     "english": "scorching",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "muy caliente"
   },
   {
     "english": "boulder",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "roca gigante"
   },
   {
     "english": "vest",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "chaleco"
   },
   {
     "english": "life vest",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "chaleco salvavidas"
   },
   {
     "english": "tremble",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "temblar"
   },
   {
     "english": "newlywed",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "recién casado"
   },
   {
     "english": "hoop",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "aro"
   },
   {
     "english": "purposefully",
-    "type": "(adv)",
+    "type": "(adverb)",
     "spanish": "con determinación"
   },
   {
     "english": "quarry",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "cantera"
   },
   {
     "english": "refrain",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "abstenerse"
   },
   {
     "english": "flashy",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "llamativo, ostentoso"
   },
   {
     "english": "call sb out",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "pedir explicaciones a alguien por sus acciones"
   },
   {
     "english": "riveting",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "fascinante, extremadamente interesante"
   },
   {
     "english": "compelling",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "convincente, emocionante, muy interesante"
   },
   {
     "english": "intriguing",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "intrigante, interesantemente misterioso"
   },
   {
     "english": "accomplishment",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "logro (después de mucho esfuerzo)"
   },
   {
     "english": "fulfillment",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "cumplimiento, realización, satisfacción"
   },
   {
     "english": "drawback",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "inconveniente, desventaja"
   },
   {
     "english": "spring",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "saltar, moverse rápido; también: primavera"
   },
   {
     "english": "jammed",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "atascado, bloqueado"
   },
   {
     "english": "flee",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "huir de una situación peligrosa"
   },
   {
     "english": "nightfall",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "anochecer"
   },
   {
     "english": "stray",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "desviarse o alejarse del camino original"
   },
   {
     "english": "rendezvous",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "encuentro, punto de encuentro, cita"
   },
   {
     "english": "live up to sth",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "estar a la altura, cumplir las expectativas"
   },
   {
     "english": "prevail",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "prevalecer, imponerse"
   },
   {
     "english": "allegiance",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "lealtad"
   },
   {
     "english": "replenish",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "reponer, rellenar"
   },
   {
     "english": "hum",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "zumbido"
   },
   {
     "english": "sheer",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "puro, completo"
   },
   {
     "english": "weakling",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "débil, debilucho"
   },
   {
     "english": "at last",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "por fin"
   },
   {
     "english": "behold",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "contemplar, ver"
   },
   {
     "english": "rightfully",
-    "type": "(adv)",
+    "type": "(adverb)",
     "spanish": "legítimamente"
   },
   {
     "english": "foresee",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "prever"
   },
   {
     "english": "unleash",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "soltar, desatar"
   },
   {
     "english": "hone",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "afilar, poner a punto"
   },
   {
     "english": "whereabouts",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "paradero, en qué parte está"
   },
   {
     "english": "make amends",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "reparar el daño"
   },
   {
     "english": "strap",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "abrochar; también: correa, tirante"
   },
   {
     "english": "shelter",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "refugiarse; también: refugio"
   },
   {
     "english": "willful",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "terco, obstinado"
   },
   {
     "english": "vengeance",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "venganza"
   },
   {
     "english": "avenge",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "vengar"
   },
   {
     "english": "withdraw",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "retirar, abandonar"
   },
   {
     "english": "foretell",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "predecir, pronosticar"
   },
   {
     "english": "selfishness",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "egoísmo"
   },
   {
     "english": "perilous",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "extremadamente peligroso o arriesgado"
   },
   {
     "english": "hazardous",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "peligroso"
   },
   {
     "english": "wreak havoc on",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "sembrar el caos, causar estragos"
   },
   {
     "english": "snap out of it",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "hacer un esfuerzo para dejar de sentirse infeliz"
   },
   {
     "english": "preoccupied",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "preocupado"
   },
   {
     "english": "stand aside",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "apartarse, retirarse"
   },
   {
     "english": "step aside",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "quitarse del medio, moverse"
   },
   {
     "english": "stay out",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "quedarse fuera, mantenerse al margen"
   },
   {
     "english": "ominous",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "inquietante, siniestro, de mal agüero"
   },
   {
     "english": "transpire",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "resultar, ocurrir, pasar"
   },
   {
     "english": "crumble",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "desmoronarse, hacerse pedazos"
   },
   {
     "english": "mourn",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "estar de luto, estar en duelo, lamentar la muerte de"
   },
   {
     "english": "stranded",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "varado, atrapado"
   },
   {
     "english": "tip",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "inclinarse hacia un lado; también: propina"
   },
   {
     "english": "downbeat",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "apagado, deprimente"
   },
   {
     "english": "weld",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "soldar"
   },
   {
     "english": "isolation",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "aislamiento"
   },
   {
     "english": "well",
-    "type": "(n/adv)",
+    "type": "(noun/adverb)",
     "spanish": "pozo; también: bien, de buena manera"
   },
   {
     "english": "realm",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "reino"
   },
   {
     "english": "tide",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "marea"
   },
   {
     "english": "restrain",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "contener, mantener"
   },
   {
     "english": "ordeal",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "terrible experiencia"
   },
   {
     "english": "abducted",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "secuestrar"
   },
   {
     "english": "madden",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "enfurecer, enloquecer"
   },
   {
     "english": "succumb",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "sucumbir"
   },
   {
     "english": "reckoning",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "ajuste de cuentas"
   },
   {
     "english": "luring",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "atraer con engaños"
   },
   {
     "english": "relentlessly",
-    "type": "(adv)",
+    "type": "(adverb)",
     "spanish": "incesantemente"
   },
   {
     "english": "undue",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "excesivo, demasiado"
   },
   {
     "english": "trifle with sb/sth",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "jugar con algo/alguien"
   },
   {
     "english": "lousy",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "pésimo, muy malo, horrible"
   },
   {
     "english": "stun",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "aturdir"
   },
   {
     "english": "uphold",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "defender o mantener algo, ratificar"
   },
   {
     "english": "premises",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "local, establecimiento, instalaciones"
   },
   {
     "english": "ponder",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "reflexionar, meditar, considerar"
   },
   {
     "english": "covert",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "encubierto, secreto"
   },
   {
     "english": "eager",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "deseoso, ansioso"
   },
   {
     "english": "play out",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "desarrollarse o pasar de cierta manera"
   },
   {
     "english": "get bent out of shape",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "molestarse, enojarse"
   },
   {
     "english": "poke",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "hurgar"
   },
   {
     "english": "trace",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "localizar; también: rastro"
   },
   {
     "english": "syringe",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "jeringa"
   },
   {
     "english": "flattered",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "halagado"
   },
   {
     "english": "fend for yourself",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "defenderse o arreglárselas por sí mismo"
   },
   {
     "english": "retribution",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "represalia, castigo"
   },
   {
     "english": "corpse",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "cadáver"
   },
   {
     "english": "sunup",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "amanecer"
   },
   {
     "english": "spry",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "ser ágil (para alguien de edad avanzada)"
   },
   {
     "english": "crave",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "ansiar, implorar"
   },
   {
     "english": "hobble",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "cojear, controlar la libertad de alguien"
   },
   {
     "english": "diminish",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "disminuir, reducir"
   },
   {
     "english": "unattainable",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "inalcanzable"
   },
   {
     "english": "flatlining",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "a un nivel muy bajo, casi inexistente"
   },
   {
     "english": "mensch",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "persona noble"
   },
   {
     "english": "hive",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "colmena, enjambre"
   },
   {
     "english": "oath",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "juramento"
   },
   {
     "english": "exert",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "ejercer algo para obtener algo"
   },
   {
     "english": "unfathomable",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "imposible de entender"
   },
   {
     "english": "feast",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "darse un festín; también: festín, banquete"
   },
   {
     "english": "bring sth out",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "revelar algo"
   },
   {
     "english": "unforeseen",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "inesperado, imprevisto"
   },
   {
     "english": "hinder",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "dificultar, entorpecer"
   },
   {
     "english": "day-to-day",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "diario"
   },
   {
     "english": "on a <adj> basis",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "frecuencia con la que algo sucede"
   },
   {
     "english": "wonky",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "torcido"
   },
   {
     "english": "parade",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "desfile"
   },
   {
     "english": "amenable",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "dispuesto"
   },
   {
     "english": "pillar",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "un miembro muy importante de una organización"
   },
   {
     "english": "enroll",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "inscribirse en una lista oficial"
   },
   {
     "english": "breeder",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "criador de animales"
   },
   {
     "english": "sketch",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "boceto, descripción breve"
   },
   {
     "english": "purr",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "ronronear"
   },
   {
     "english": "waver",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "flaquear, perder determinación o fuerza"
   },
   {
     "english": "farewell",
-    "type": "(ex/n)",
+    "type": "(exclamation/noun)",
     "spanish": "adiós; también: despedida"
   },
   {
     "english": "lass",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "muchacha joven, chica"
   },
   {
     "english": "in a pickle",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "en una situación difícil"
   },
   {
     "english": "cling",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "agarrarse, aferrarse, pegarse"
   },
   {
     "english": "unnerving",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "desconcertante"
   },
   {
     "english": "quarrel",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "discutir, pelearse"
   },
   {
     "english": "wield",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "blandir o manipular un arma"
   },
   {
     "english": "slay",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "matar, asesinar"
   },
   {
     "english": "top-notch",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "de primer nivel"
   },
   {
     "english": "guts",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "víceras, entrañas"
   },
   {
     "english": "beat it",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "vete, largo"
   },
   {
     "english": "dash",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "pizca"
   },
   {
     "english": "hint",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "un toque de"
   },
   {
     "english": "bummer",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "desastre, fastidio"
   },
   {
     "english": "rattle",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "inquietar"
   },
   {
     "english": "whine",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "quejarse"
   },
   {
     "english": "sustain",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "sustentar; también: sufrir un daño"
   },
   {
     "english": "mood",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "humor, estado de ánimo"
   },
   {
     "english": "swing",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "columpiar, también: cambiar"
   },
   {
     "english": "urge",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "instar a alguien a hacer algo, también: impulso"
   },
   {
     "english": "inflate",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "inflar"
   },
   {
     "english": "reassurance",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "consuelo, palabras tranquilizadoras, garantía"
   },
   {
     "english": "showcase",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "exhibir; también: vitrina"
   },
   {
     "english": "apprehend",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "detener, aprehender, arrestar"
   },
   {
     "english": "concern",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "preocupar; también: preocupación"
   },
   {
     "english": "undermine",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "debilitar"
   },
   {
     "english": "buckle up",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "abrocharse el cinturón en un vehículo"
   },
   {
     "english": "distress",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "aflicción, angustia, situación de peligro"
   },
   {
     "english": "aid",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "ayudar"
   },
   {
     "english": "setback",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "contratiempo"
   },
   {
     "english": "literacy",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "alfabetismo, alfabetización"
   },
   {
     "english": "barren",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "árido, estéril"
   },
   {
     "english": "shrewd",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "astuto, sagaz"
   },
   {
     "english": "blissful",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "dichoso, jubiloso"
   },
   {
     "english": "pursue",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "seguir, perseguir, proseguir"
   },
   {
     "english": "trip",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "tropezar; también: viaje, excursión"
   },
   {
     "english": "drool",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "babear"
   },
   {
     "english": "retaliate",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "contraatacar, tomar represalias"
   },
   {
     "english": "terrific",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "fabuloso, genial, estupendo"
   },
   {
     "english": "block",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "bloquear, tapar; también: barrio"
   },
   {
     "english": "mortgage",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "hipoteca"
   },
   {
     "english": "whiner",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "llorón, quejumbroso"
   },
   {
     "english": "immerse",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "sumergir, hundir"
   },
   {
     "english": "prune",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "podar"
   },
   {
     "english": "hack",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "cortar, tajar"
   },
   {
     "english": "dire",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "nefasto, extremo, desesperado, urgente"
   },
   {
     "english": "rousing",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "enardecedor, entusiasta"
   },
   {
     "english": "acquit yourself",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "desenvolverse o desempeñarse mejor de lo esperado"
   },
   {
     "english": "drip",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "gotear; también: gota, goteo"
   },
   {
     "english": "blatantly",
-    "type": "(adv)",
+    "type": "(adverb)",
     "spanish": "descaradamente"
   },
   {
     "english": "deplete",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "agotar, mermar"
   },
   {
     "english": "draw",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "atraer"
   },
   {
     "english": "tender",
-    "type": "(v/adj)",
+    "type": "(verb/adjective)",
     "spanish": "presentarse a un concurso; también: tierno, cariñoso"
   },
   {
     "english": "counterfeit",
-    "type": "(v/adj)",
+    "type": "(verb/adjective)",
     "spanish": "falsificar; también: falso, no auténtico"
   },
   {
     "english": "hitherto",
-    "type": "(adv)",
+    "type": "(adverb)",
     "spanish": "hasta ahora, hasta la fecha"
   },
   {
     "english": "arrears",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "atrasos"
   },
   {
     "english": "bewicth",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "hechizar, cautivar"
   },
   {
     "english": "daunting",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "intimidante, desalentador"
   },
   {
     "english": "stall",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "puesto para vender"
   },
   {
     "english": "creak",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "crujir"
   },
   {
     "english": "kiln",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "horno"
   },
   {
     "english": "tinkle",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "tintinear de una campana"
   },
   {
     "english": "rumble",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "retumbar"
   },
   {
     "english": "gorge",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "atascarse de comida"
   },
   {
     "english": "smudge",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "mancha"
   },
   {
     "english": "trickle",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "gotear; también: goteo, chorrito"
   },
   {
     "english": "tantrum",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "rabieta, berrinche"
   },
   {
     "english": "vein",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "vena"
   },
   {
     "english": "burly",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "fornido, musculoso"
   },
   {
     "english": "nifty",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "ingenioso, hábil"
   },
   {
     "english": "enforcer",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "ejecutor, agente de la ley"
   },
   {
     "english": "enjoin",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "ordenar, mandar, imponer"
   },
   {
     "english": "intently",
-    "type": "(adv)",
+    "type": "(adverb)",
     "spanish": "atentamente, con atención"
   },
   {
     "english": "beforehand",
-    "type": "(adv)",
+    "type": "(adverb)",
     "spanish": "antemano"
   },
   {
     "english": "allot",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "repartir, asignar"
   },
   {
     "english": "hasty",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "precipitado, apresurado"
   },
   {
     "english": "perish",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "perecer"
   },
   {
     "english": "scatter",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "dispersarse, desperdigarse"
   },
   {
     "english": "lure",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "atraer con engaños, atraer"
   },
   {
     "english": "supper",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "cena"
   },
   {
     "english": "dodgy",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "sospechoso, arriesgado"
   },
   {
     "english": "adder",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "vívora o culebra venenosa"
   },
   {
     "english": "vexed",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "molesto, controvertido"
   },
   {
     "english": "frail",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "frágil, débil, delicado"
   },
   {
     "english": "lesser",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "inferior, de menor importancia"
   },
   {
     "english": "buck up",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "animarse, darse prisa"
   },
   {
     "english": "crummy",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "de muy mala calidad"
   },
   {
     "english": "bury",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "enterrar, cubrir, esconder"
   },
   {
     "english": "despise",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "despreciar, odiar"
   },
   {
     "english": "grudge",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "rencor"
   },
   {
     "english": "bygone",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "pasado, de una época pasada"
   },
   {
     "english": "belittle",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "menospreciar, rebajar, minimizar"
   },
   {
     "english": "lessen",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "reducir, disminuir"
   },
   {
     "english": "distort",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "distorsionar, deformar"
   },
   {
     "english": "strive",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "luchar, esforzarse"
   },
   {
     "english": "fancy",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "desear; también: elegante, sofisticado"
   },
   {
     "english": "in the long run",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "a la larga"
   },
   {
     "english": "abnormal",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "anormal"
   },
   {
     "english": "bold",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "audaz, atrevido"
   },
   {
     "english": "embrace",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "abrazar; también: abrazo"
   },
   {
     "english": "grateful",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "agradecido"
   },
   {
     "english": "soothing",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "calmante, relajante, tranquilizante"
   },
   {
     "english": "uncertainty",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "incertidumbre"
   },
   {
     "english": "scoff",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "burlarse"
   },
   {
     "english": "foe",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "enemigo"
   },
   {
     "english": "leverage",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "poder, influencia"
   },
   {
     "english": "call off",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "cancelar"
   },
   {
     "english": "spineless",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "cobarde, sin agallas"
   },
   {
     "english": "ambush",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "emboscada; también: emboscar"
   },
   {
     "english": "slaughter",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "matar, sacrificar; también: matanza"
   },
   {
     "english": "companion",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "compañero"
   },
   {
     "english": "outbound",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "saliente, dejar o alejarse de algún lugar"
   },
   {
     "english": "inbound",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "entrante, llegar a algún lugar"
   },
   {
     "english": "whatsoever",
-    "type": "(adv)",
+    "type": "(adverb)",
     "spanish": "(negativo): en absoluto, absolutamente"
   },
   {
     "english": "stab",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "apuñalar"
   },
   {
     "english": "vermin",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "alimaña, gentuza"
   },
   {
     "english": "rage",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "ira, cólera, furia"
   },
   {
     "english": "the minutiae",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "los pequeños detalles"
   },
   {
     "english": "lifespan",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "esperanza de vida"
   },
   {
     "english": "paltry",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "mísero, muy pequeño"
   },
   {
     "english": "turd",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "canalla"
   },
   {
     "english": "precious",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "preciado, valioso"
   },
   {
     "english": "tilt",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "inclinar, inclinarse"
   },
   {
     "english": "fuss",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "alboroto, escándalo"
   },
   {
     "english": "smoky",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "humeante, lleno de humo"
   },
   {
     "english": "mischievous",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "travieso"
   },
   {
     "english": "stern",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "severo, serio, duro"
   },
   {
     "english": "defiant",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "desafiante, rebelde"
   },
   {
     "english": "wavy",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "ondulado"
   },
   {
     "english": "composure",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "compostura, calma"
   },
   {
     "english": "self-reflection",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "autoreflexión"
   },
   {
     "english": "yawning",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "muy amplio, enorme"
   },
   {
     "english": "pluck up the courage to sth",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "armarse de valor"
   },
   {
     "english": "gaze",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "mirada"
   },
   {
     "english": "bitterness",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "amargura"
   },
   {
     "english": "nostalgia",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "nostalgia"
   },
   {
     "english": "repent",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "arrepentirse de"
   },
   {
     "english": "anguish",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "angustia"
   },
   {
     "english": "cling to",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "aferrarse"
   },
   {
     "english": "unrequited",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "correspondido"
   },
   {
     "english": "juggle",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "hacer malabares"
   },
   {
     "english": "in vain",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "en vano"
   },
   {
     "english": "hallucinate",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "alucinar"
   },
   {
     "english": "pay dearly",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "pagar caro, con creces"
   },
   {
     "english": "blindfold",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "vendar los ojos; también: venda de ojos"
   },
   {
     "english": "be shipwrecked",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "naufragar"
   },
   {
     "english": "abandonment",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "abandono"
   },
   {
     "english": "dawn",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "amanecer; también: el amanecer"
   },
   {
     "english": "apron",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "delantal"
   },
   {
     "english": "meddle",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "entrometerse"
   },
   {
     "english": "bedspread",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "colcha"
   },
   {
     "english": "stingy",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "tacaño"
   },
   {
     "english": "talk sb into sth",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "convencer a alguien de hacer algo"
   },
   {
     "english": "talk sb out of sth",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "disuadir a alguien de hacer algo"
   },
   {
     "english": "overblown",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "exagerado, inflado"
   },
   {
     "english": "backlash",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "reacción violenta"
   },
   {
     "english": "somewhat",
-    "type": "(adv)",
+    "type": "(adverb)",
     "spanish": "un tanto, hasta cierto punto"
   },
   {
     "english": "grievance",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "motivo de queja, queja"
   },
   {
     "english": "prompt",
-    "type": "(v/adj)",
+    "type": "(verb/adjective)",
     "spanish": "incitar, provocar; también: rápido"
   },
   {
     "english": "outrage",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "indignar; también: indignación"
   },
   {
     "english": "knit",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "tejer"
   },
   {
     "english": "whatnot",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "etcétera, esas cosas"
   },
   {
     "english": "nonchalantly",
-    "type": "(adv)",
+    "type": "(adverb)",
     "spanish": "despreocupadamente"
   },
   {
     "english": "glimpse",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "vislumbrar"
   },
   {
     "english": "dimly",
-    "type": "(adv)",
+    "type": "(adverb)",
     "spanish": "tenuemente, débilmente"
   },
   {
     "english": "instill",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "inculcar"
   },
   {
     "english": "fleeting",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "fugaz, rápido"
   },
   {
     "english": "advocate",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "promover; también: abogado defensor"
   },
   {
     "english": "heyday",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "apogeo, auge, buenos tiempos"
   },
   {
     "english": "recall",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "recordar"
   },
   {
     "english": "vaguely",
-    "type": "(adv)",
+    "type": "(adverb)",
     "spanish": "vagamente"
   },
   {
     "english": "strengthen",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "fortalecer, reforzar"
   },
   {
     "english": "thereby",
-    "type": "(adv)",
+    "type": "(adverb)",
     "spanish": "así, de ese modo"
   },
   {
     "english": "bottleneck",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "embotellamiento"
   },
   {
     "english": "make",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "marca de un producto"
   },
   {
     "english": "teary",
-    "type": "(adv)",
+    "type": "(adverb)",
     "spanish": "lloroso, que te hace llorar"
   },
   {
     "english": "flutter",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "revolotear, moverse rápido"
   },
   {
     "english": "dart",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "correr muy rápido; también: dardo"
   },
   {
     "english": "depiction",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "representación"
   },
   {
     "english": "shovel",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "pala"
   },
   {
     "english": "yank",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "jalar algo muy fuerte"
   },
   {
     "english": "give free rein",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "dar rienda suelta"
   },
   {
     "english": "tearjerker",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "historia que te hace llorar"
   },
   {
     "english": "heist",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "atraco"
   },
   {
     "english": "tongue-in-cheek",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "irónico, en broma"
   },
   {
     "english": "disadvantage",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "perjudicar a otro; también: desventaja"
   },
   {
     "english": "mince",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "cortar en pedazos pequeños"
   },
   {
     "english": "squeaky-clean",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "muy limpio"
   },
   {
     "english": "remorse",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "remordimiento, arrepentimiento"
   },
   {
     "english": "admonish",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "amonestar, reprender"
   },
   {
     "english": "deservedly",
-    "type": "(adv)",
+    "type": "(adverb)",
     "spanish": "merecidamente"
   },
   {
     "english": "improperly",
-    "type": "(adv)",
+    "type": "(adverb)",
     "spanish": "indebidamente, de manera incorrecta"
   },
   {
     "english": "narrow",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "estrecho, corto"
   },
   {
     "english": "feisty",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "enérgico, luchador, temperamental"
   },
   {
     "english": "reenactment",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "recreación"
   },
   {
     "english": "swerve",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "girar rápido o bruscamente"
   },
   {
     "english": "zany",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "loco y al mismo tiempo divertido"
   },
   {
     "english": "brazen",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "descarado, desvergonzado"
   },
   {
     "english": "pester",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "insistir repetidamente de manera molesta"
   },
   {
     "english": "slanted",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "inclinado, tendencioso"
   },
   {
     "english": "scoundrel",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "canalla, sinvergüenza"
   },
   {
     "english": "offspring",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "descendencia"
   },
   {
     "english": "ace",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "hacer algo muy bien"
   },
   {
     "english": "startled",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "asustado, sorprendido"
   },
   {
     "english": "gamesmanship",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "habilidad para el juego"
   },
   {
     "english": "rig",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "amañar"
   },
   {
     "english": "foam",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "espuma"
   },
   {
     "english": "auction",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "subasta"
   },
   {
     "english": "dubious",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "dudoso"
   },
   {
     "english": "bribe",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "sobornar"
   },
   {
     "english": "finesse",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "finura, sutileza, refinamiento"
   },
   {
     "english": "humility",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "humildad"
   },
   {
     "english": "unfounded",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "sin fundamento"
   },
   {
     "english": "stroll",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "pasear; también: paseo"
   },
   {
     "english": "sue",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "demandar"
   },
   {
     "english": "beg",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "rogar, suplicar"
   },
   {
     "english": "look down on sb",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "menospreciar"
   },
   {
     "english": "wither",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "marchitarse"
   },
   {
     "english": "murmur",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "murmurar"
   },
   {
     "english": "rancor",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "rencor"
   },
   {
     "english": "gravely",
-    "type": "(adv)",
+    "type": "(adverb)",
     "spanish": "seriamente, gravemente"
   },
   {
     "english": "strike down",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "abatir"
   },
   {
     "english": "red-handed",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "con las manos en la masa"
   },
   {
     "english": "staunch",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "inquebrantable, férreo"
   },
   {
     "english": "profound",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "profundo (emocional)"
   },
   {
     "english": "witty",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "ingenioso"
   },
   {
     "english": "cope with sth",
-    "type": "(coll)",
+    "type": "(collocation)",
     "spanish": "hacer frente o lidiar a algo/alguien"
   },
   {
     "english": "out of the blue",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "de la nada, inesperadamente"
   },
   {
     "english": "entice",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "incitar, atraer"
   },
   {
     "english": "smooth",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "suave, liso"
   },
   {
     "english": "wisecrack",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "broma, chiste"
   },
   {
     "english": "unassailable",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "tan fuerte que no puede ser derrotado"
   },
   {
     "english": "turmoil",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "confusión, estado de caos"
   },
   {
     "english": "jostle",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "empujar, empujarse"
   },
   {
     "english": "peek",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "echar una miráda rápida tratando de no ser visto"
   },
   {
     "english": "exhilarating",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "estimulante"
   },
   {
     "english": "sassy",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "atrevido sin llegar a ser ofensivo"
   },
   {
     "english": "shove",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "empujar bruscamente"
   },
   {
     "english": "take matters into your own hands",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "lidiar con la situación tú mismo"
   },
   {
     "english": "mindset",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "mentalidad"
   },
   {
     "english": "pushover",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "persona fácil de convencer"
   },
   {
     "english": "parchment",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "pergamino"
   },
   {
     "english": "peasant",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "campesino (despectivo)"
   },
   {
     "english": "screw sth up",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "arruinar algo"
   },
   {
     "english": "settle down",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "adaptarse, establecerse, tranquilizarse"
   },
   {
     "english": "cranky",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "quejoso, malhumorado"
   },
   {
     "english": "rock",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "mover, sacudir; también: roca"
   },
   {
     "english": "nil",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "cero, nulo"
   },
   {
     "english": "suffice",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "bastar, ser suficiente"
   },
   {
     "english": "my cup of tea",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "mi preferencia, mi estilo"
   },
   {
     "english": "outwit",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "vencer o superar a alguien siendo más astuto"
   },
   {
     "english": "weave",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "tejer"
   },
   {
     "english": "nag",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "dar lata, molestar"
   },
   {
     "english": "dowdy",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "sin estilo, sin gracia, pasado de moda"
   },
   {
     "english": "dis",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "insultar, mostrar falta de respeto"
   },
   {
     "english": "contempt",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "el desprecio"
   },
   {
     "english": "bewitched",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "estar o quedar cautivado"
   },
   {
     "english": "top-of-the-line",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "de primera línea, lo más costoso"
   },
   {
     "english": "reminiscence",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "reminiscencia, el acto de recordar experiencias pasadas"
   },
   {
     "english": "full-fledged",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "hecho y derecho, verdaderamente, a toda regla"
   },
   {
     "english": "rabbit hole",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "situación en la que te interesas demasiado por investigar sobre un tema"
   },
   {
     "english": "tokenism",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "hacer algo para aparentar ser inclusivo con determinados grupos sociales"
   },
   {
     "english": "milestone",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "hito o evento muy importante"
   },
   {
     "english": "pay rise",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "aumento de sueldo"
   },
   {
     "english": "bleach",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "blanquear, remover el color de algo"
   },
   {
     "english": "flushed",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "sonrojado"
   },
   {
     "english": "intricate",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "complejo o detallado"
   },
   {
     "english": "outshine",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "eclipsar, opacar, brillar más que algo"
   },
   {
     "english": "propel",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "propulsar, impulsar"
   },
   {
     "english": "shrimp",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "camarón"
   },
   {
     "english": "dandelion",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "diente de león"
   },
   {
     "english": "latch",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "seguro de puerta, pasador"
   },
   {
     "english": "rebound",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "rebotar"
   },
   {
     "english": "soulless",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "incapaz de sentir o demostrar emociones"
   },
   {
     "english": "convey",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "expresar, transmitir"
   },
   {
     "english": "splurge",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "gastar mucho dinero en cosas caras"
   },
   {
     "english": "riot",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "disturbio, revuleta"
   },
   {
     "english": "piercing",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "penetrante"
   },
   {
     "english": "fluke",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "chiripa, una casualidad"
   },
   {
     "english": "unbeknownst to sb",
-    "type": "(adv)",
+    "type": "(adverb)",
     "spanish": "sin el consentimiento de alguien"
   },
   {
     "english": "barter",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "hacer trueques o intercambios"
   },
   {
     "english": "gripe",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "quejarse constantemente; también: queja"
   },
   {
     "english": "to make as if to",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "amagar con hacer algo"
   },
   {
     "english": "on behalf of someone",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "en nombre de, a nombre de"
   },
   {
     "english": "mar",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "estropear, hechar a perder"
   },
   {
     "english": "mislead",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "engañar"
   },
   {
     "english": "unduly",
-    "type": "(adv)",
+    "type": "(adverb)",
     "spanish": "exesivamente, demasiado"
   },
   {
     "english": "abiding",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "perdurable, duradero"
   },
   {
     "english": "nuances",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "matices, diferencias"
   },
   {
     "english": "widespread",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "muy extendido, generalizado"
   },
   {
     "english": "seldom",
-    "type": "(adv)",
+    "type": "(adverb)",
     "spanish": "rara vez, casi nunca"
   },
   {
     "english": "unwavering",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "fijo, inquebrantable"
   },
   {
     "english": "fickle",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "inconsistente, voluble"
   },
   {
     "english": "stalwart",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "leal, fiel, incondicional"
   },
   {
     "english": "contrite",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "arrepentido"
   },
   {
     "english": "cut sb some slack",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "no ser tan crítico con alguien"
   },
   {
     "english": "goodwill",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "buena voluntad"
   },
   {
     "english": "jumble",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "mezcla, revoltijo, lío"
   },
   {
     "english": "laid-back",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "relajado, tranquilo"
   },
   {
     "english": "rendition",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "interpretación, performance"
   },
   {
     "english": "crooked",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "torcido, chueco"
   },
   {
     "english": "listless",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "apático"
   },
   {
     "english": "entreat",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "suplicar"
   },
   {
     "english": "beseech",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "implorar"
   },
   {
     "english": "wholly",
-    "type": "(adv)",
+    "type": "(adverb)",
     "spanish": "completamente"
   },
   {
     "english": "idle",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "parado, inactivo, ocioso"
   },
   {
     "english": "odious",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "odioso, detestable"
   },
   {
     "english": "snare",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "trampa"
   },
   {
     "english": "likeness",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "semejanza, parecido"
   },
   {
     "english": "discern",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "distinguir, reconocer, darse cuenta"
   },
   {
     "english": "around the clock",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "todo el día, las 24 horas"
   },
   {
     "english": "neglected",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "abandonado, descuidado"
   },
   {
     "english": "foremost",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "principal, más importante"
   },
   {
     "english": "bum sb out",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "desanimar, entristecer"
   },
   {
+    "english": "flair",
+    "type": "(noun)",
+    "spanish": "estilo"
+  },
+  {
     "english": "landslide",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "victoria aplastante"
   },
   {
     "english": "vie",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "disputar, competir"
   },
   {
     "english": "bespoke",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "hecho a la medida"
   },
   {
     "english": "comply",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "obedecer, acatar, cumplir"
   },
   {
     "english": "yearn",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "anhelar"
   },
   {
     "english": "oversleep",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "quedarse dormido por más tiempo"
   },
   {
     "english": "gun",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "acelerar un motor; también: arma"
   },
   {
     "english": "aisle",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "pasillo"
   },
   {
     "english": "jaded",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "cansado, fastidiado"
   },
   {
     "english": "baller",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "cool, impresionante"
   },
   {
     "english": "venture",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "atreverse, aventurarse"
   },
   {
     "english": "overthrow",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "derrocar"
   },
   {
     "english": "contrived",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "artificial, falso, poco creíble"
   },
   {
     "english": "flunk",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "reprobar un examen o una materia"
   },
   {
     "english": "wistful",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "nostálgico, pensativo, melancólico"
   },
   {
     "english": "bear fruit",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "dar fruto"
   },
   {
     "english": "drift",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "ir a la deriva"
   },
   {
     "english": "get/catch the drift",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "entender"
   },
   {
     "english": "candle",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "vela"
   },
   {
     "english": "tune",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "melodía"
   },
   {
     "english": "fall through",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "no suceder, fracasar"
   },
   {
     "english": "lump",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "pedazo, trozo, bulto"
   },
   {
     "english": "ravine",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "barranco"
   },
   {
     "english": "classsy",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "con estilo"
   },
   {
     "english": "flare",
-    "type": "(v/n)",
+    "type": "(verb/noun)",
     "spanish": "encenderse; también: bengala"
   },
   {
     "english": "tantalizing",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "tentador"
   },
   {
     "english": "outgoing",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "extrovertido"
   },
   {
     "english": "walk/be on eggshells",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "ser cuidadoso para no ofender a alguien"
   },
   {
     "english": "dogged",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "tenaz, obstinado"
   },
   {
     "english": "curfew",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "toque de queda, hora límite"
   },
   {
     "english": "booze",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "bebida alcohólica"
   },
   {
     "english": "unravel",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "resolver, aclarar, desenrredar"
   },
   {
     "english": "fend off",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "alejarse de alguien"
   },
   {
     "english": "captivate",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "cautivar, llamar mucho la atención"
   },
   {
     "english": "stir sth up",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "empezar a causar una emociones fuertes"
   },
   {
     "english": "bewitching",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "hechizante, fascinante"
   },
   {
     "english": "sulk",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "estar enojado o molesto"
   },
   {
     "english": "sway",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "mecerse, tambalearse, balancearse"
   },
   {
     "english": "unflappable",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "imperturbable, calmado en situaciones difíciles"
   },
   {
     "english": "underway",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "en marcha, comenzado, en curso"
   },
   {
     "english": "slip up",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "errar, equivocarse, meter la pata"
   },
   {
     "english": "snippet",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "trozo, fragmento"
   },
   {
     "english": "reprieve",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "indulto, suspensión de pena"
   },
   {
     "english": "wholeheartedly",
-    "type": "(adv)",
+    "type": "(adverb)",
     "spanish": "incondicionalmente, de todo corazón"
   },
   {
     "english": "plethora",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "plétora, gran cantidad de algo"
   },
   {
     "english": "puke",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "vomitar"
   },
   {
     "english": "hem",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "dobladillo (tela)"
   },
   {
     "english": "tamper",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "manipular, corromper, falsificar"
   },
   {
     "english": "discomfort",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "malestar, inquietud, molestia"
   },
   {
     "english": "get-go",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "principio, inicio, comienzo"
   },
   {
     "english": "well-being",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "bienestar"
   },
   {
     "english": "cornerstone",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "piedra angular, pilar"
   },
   {
     "english": "tell apart",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "distinguir, reconocer"
   },
   {
     "english": "right off the bat",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "inmediatamente, de inmediato"
   },
   {
     "english": "discombobulate",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "confundir, desconcertar"
   },
   {
     "english": "lethargic",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "sin energía, sin ánimos"
   },
   {
     "english": "belated",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "tardío, con retraso"
   },
   {
     "english": "fiddle",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "jugetear con los dedos"
   },
   {
     "english": "outsider",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "marginado, forastero, persona de fuera"
   },
   {
     "english": "swamped",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "saturado"
   },
   {
     "english": "befit",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "corresponder, ser apropiado para"
   },
   {
     "english": "ring a bell",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "sonar familiar, recordar sin claridad"
   },
   {
     "english": "brag",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "alardear, presumir"
   },
   {
     "english": "lounge",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "sala de estar"
   },
   {
     "english": "drive a wedge between",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "dañar la relación entre 2 personas"
   },
-  { 
+  {
     "english": "rack up",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "incrementar, aumentar"
   },
   {
     "english": "bunk bed",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "litera (cama)"
   },
   {
     "english": "swallow",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "tragar, ingerir"
   },
   {
     "english": "warp",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "deformar, torcer, pervertir"
   },
   {
     "english": "be no slouch",
-    "type": "(v)",
+    "type": "(idiom)",
     "spanish": "no quedarse atrás, trabajar duro"
   },
   {
     "english": "take sb's word for it",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "confiar en alguien"
   },
   {
+    "english": "carved in stone",
+    "type": "(idiom)",
+    "spanish": "tallado en piedra, imposible de cambiar"
+  },
+  {
     "english": "to my mind",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "en mi opinión, a mi parecer"
   },
   {
     "english": "reflective",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "reflexivo, reflectante"
   },
   {
     "english": "unwind",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "relajarse, desenrollar"
   },
   {
     "english": "side hustle",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "trabajo secundario"
   },
   {
     "english": "smush",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "aplastar"
   },
   {
     "english": "up for grabs",
-    "type": "(id)",
+    "type": "(idiom)",
     "spanish": "para quien lo quiera"
   },
   {
     "english": "amble",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "caminar tranquilo y sin prisa"
   },
   {
     "english": "endorse",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "respaldar, aprobar"
   },
   {
     "english": "unerring",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "infalible, certero"
   },
   {
     "english": "alas",
-    "type": "(ex)",
+    "type": "(exclamation)",
     "spanish": "desafortunadamente, por desgracia"
   },
   {
     "english": "overstate",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "exagerar"
   },
-    {
+  {
     "english": "phony",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "falso"
   },
   {
     "english": "retort",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "una respuesta rápida e inteligente"
   },
   {
     "english": "divert",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "redirigir la dirección física de algo o desviar la atención/recursos hacia otro lugar"
   },
   {
     "english": "deflect",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "desviar para evitar contacto, daño o responsabilidad"
   },
   {
     "english": "overdose",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "sobredosis"
   },
   {
     "english": "thump",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "golpear algo y causar ruido o vibraciones"
   },
   {
     "english": "accolade",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "honor o elegio"
   },
   {
     "english": "entice",
-    "type": "(v)",
+    "type": "(verb)",
     "spanish": "incitar, tentar o atraer"
   },
   {
     "english": "attire",
-    "type": "(n)",
+    "type": "(noun)",
     "spanish": "atuendo"
   },
   {
     "english": "sober",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "sobrio, serio"
   },
   {
     "english": "run over",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "atropellar o golpear con un vehículo"
   },
   {
     "english": "bail sb out",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "sacar a alguien del apuro"
   },
   {
     "english": "dust sth off",
-    "type": "(pv)",
+    "type": "(phrasal verb)",
     "spanish": "desempolvar algo"
   },
   {
     "english": "eventful",
-    "type": "(adj)",
+    "type": "(adjective)",
     "spanish": "lleno de incidentes o experiencias, ajetreado"
   }
-]
+];
