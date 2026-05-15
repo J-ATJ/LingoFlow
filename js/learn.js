@@ -128,6 +128,21 @@ function playCurrentWord(event) {
     }
 }
 
+function playCurrentExample(event) {
+    // Evitamos que la carta se voltee al hacer clic en el botón
+    if (event) event.stopPropagation();
+
+    const wordObj = shuffledDb[currentStudyIndex];
+    
+    // Verificamos que exista el objeto y que tenga un ejemplo
+    if (wordObj && wordObj.example) {
+        // Reutilizamos tu función speakWord que ya tiene los filtros de voz
+        speakWord(wordObj.example);
+    } else {
+        console.warn("No hay ejemplo de audio disponible para esta palabra.");
+    }
+}
+
 function speakWord(text) {
     window.speechSynthesis.cancel();
     const synth = window.speechSynthesis;
@@ -140,14 +155,9 @@ function speakWord(text) {
     // Usamos una expresión regular con /g para que cambie todas las apariciones
     cleanText = cleanText.replace(/\//g, ' or ');
 
-    // 3. Reemplazo de "<adj>" por un silencio
-    // Añadimos puntos y espacios. La mayoría de voces de navegador 
-    // interpretan "..." como una pausa de aproximadamente medio segundo.
-    cleanText = cleanText.replace(/<adj>/g, '... ... ...');
-
     const utterance = new SpeechSynthesisUtterance(cleanText);
     utterance.lang = 'en-US';
-    utterance.rate = 0.85;
+    utterance.rate = 0.90;
     utterance.pitch = 1;
 
     synth.speak(utterance);

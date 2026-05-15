@@ -366,6 +366,16 @@ input:checked+.slider:before {
     border: 2px solid var(--secondary-dark);
 }
 
+.example-box{
+    display: flex;
+    flex-direction: column;
+}
+
+#study-example{
+    text-align: center;
+}
+
+/* example-box */
 
 /* --- SELECCIÓN DE JUEGOS --- */
 .btn-game {

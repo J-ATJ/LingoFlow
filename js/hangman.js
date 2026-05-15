@@ -36,6 +36,8 @@ function renderHangmanWord() {
 
     let allGuessed = true;
 
+    const isSymbol = /[^A-ZÑ]/;     // definir caracteres especiales
+
     for (let char of hangmanAnswer) {
         const span = document.createElement('span');
         span.className = "letter-slot";
@@ -43,7 +45,9 @@ function renderHangmanWord() {
         if (char === " ") {
             span.classList.add('space');
             span.innerText = " ";
-        } else if (guessedLetters.includes(char) || char === "/" || char === "-") {
+        } 
+        
+        else if (guessedLetters.includes(char) || isSymbol.test(char)) {
             span.innerText = char;
         } else {
             span.innerText = "";
