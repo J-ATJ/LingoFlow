@@ -1,0 +1,22 @@
+{
+  "short_name": "LingoFlow",
+  "name": "LingoFlow - Práctica de Vocabulario",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3898/3898082.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3898/3898082.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "./index.html",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "theme_color": "#4A90E2",
+  "orientation": "portrait",
+  "description": "nice app"
+}
