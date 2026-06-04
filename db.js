@@ -5950,5 +5950,132 @@ let db = [
     "type": "(phrasal verb)",
     "spanish": "darse cuenta",
     "example": "It began to dawn on him that he had left his keys inside the car just as he locked the door"
+  },
+  {
+    "english": "con",
+    "type": "(verb)",
+    "spanish": "timar, estafar",
+    "example": "The salesman tried to con the elderly couple into buying a fake insurance policy"
+  },
+  {
+    "english": "cut sb/sth off",
+    "type": "(phrasal verb)",
+    "spanish": "aislar a alguien/algo; dejar de proporcionar algo",
+    "example": "When his wife died, he cut himself off from other people"
+  },
+  {
+    "english": "shrivelled",
+    "type": "(adjective)",
+    "spanish": "arrugado",
+    "example": "Those oranges were looking old and shrivelled, so I threw them out"
+  },
+  {
+    "english": "befuddle",
+    "type": "(verb/adjective)",
+    "spanish": "aturdir, dejar perplejo; también: confundido",
+    "example": "I'm so tired, my poor befuddled brain can't absorb any more"
+  },
+  {
+    "english": "slept on",
+    "type": "(adjective)",
+    "spanish": "subestimado, ignorado, que merece más reconocimiento",
+    "example": "His most slept on movie is actually a masterpiece, but nobody talks about it"
+  },
+  {
+    "english": "hedge",
+    "type": "(verb)",
+    "spanish": "evitar dar una respuesta directa",
+    "example": "Stop hedging and tell me what you really think"
+  },
+  {
+    "english": "hassle",
+    "type": "(verb)",
+    "spanish": "dar lata, molestar",
+    "example": "The children keep hassling me to take them to Disneyland"
+  },
+  {
+    "english": "handout",
+    "type": "(noun)",
+    "spanish": "documento, folleto",
+    "example": "You’ll find the diagram on page four of your handout"
+  },
+  {
+    "english": "ditch",
+    "type": "(verb/noun)",
+    "spanish": "abandonar, dejar; también: zanja",
+    "example": "The car had been ditched a couple of miles away from the scene of the robbery"
+  },
+  {
+    "english": "squint",
+    "type": "(verb)",
+    "spanish": "entrecerrar los ojos",
+    "example": "The sun was shining straight in her eyes and made her squint"
+  },
+  {
+    "english": "trickster",
+    "type": "(noun)",
+    "spanish": "pícaro, bromista, embaucador",
+    "example": "Loki is known as the god of mischief, he is a clever trickster who loves playing pranks on the other gods"
+  },
+  {
+    "english": "nimble",
+    "type": "(adjective)",
+    "spanish": "ágil, veloz, diestro",
+    "example": "The gymnast's nimble movements allowed her to perform the difficult routine without making a single mistake"
+  },
+  {
+    "english": "vantage point",
+    "type": "(noun)",
+    "spanish": "punto de vista, posición estratégica, perspectiva",
+    "example": "From our high vantage point, we could see the entire city lights below us"
+  },
+  {
+    "english": "stand out",
+    "type": "(phrasal verb)",
+    "spanish": "destacar, llamar la atención",
+    "example": "We had lots of good applicants for the job, but one stood out from the rest"
+  },
+  {
+    "english": "golden mean",
+    "type": "(noun)",
+    "spanish": "punto de equilibrio perfecto entre dos extremos",
+    "example": "True courage is the golden mean between being a coward and being completely reckless"
+  },
+  {
+    "english": "amid",
+    "type": "(preposition)",
+    "spanish": "en medio de, entre",
+    "example": "Amid all the confusion, the real point of the meeting was lost"
+  },
+  {
+    "english": "languish",
+    "type": "(verb)",
+    "spanish": "deteriorarse, pudrirse, quedarse estancado",
+    "example": "The innocent man was left to languish in prison for ten years before the new evidence finally cleared his name"
+  },
+  {
+    "english": "zest",
+    "type": "(noun)",
+    "spanish": "ralladura (de cítricos); también: entusiasmo o pasión",
+    "example": "Finishing the pasta with a bit of fresh lime zest gives the dish a perfect touch of acidity"
+  },
+  {
+    "english": "cut-throat",
+    "type": "(adjective)",
+    "spanish": "feroz, despiadado, implacable",
+    "example": "On the track, Max Verstappen is a cut-throat driver who will never give up a position"
+  },
+  {
+    "english": "maul",
+    "type": "(verb)",
+    "spanish": "atacar salvajemente o herir de gravedad (especialmente por animales)",
+    "example": "The hiker was lucky to survive after a grizzly bear started to maul him in the woods"
+  },
+  {
+    "english": "flip out",
+    "type": "(phrasal verb)",
+    "spanish": "perder el control, volverse loco (de enojo o emoción)",
+    "example": "The fans started to flip out when the singer unexpectedly walked into the coffee shop"
   }
+
 ];

@@ -16,7 +16,7 @@ function initAprender() {
             .sort(() => Math.random() - 0.5);
 
         if (shuffledDb.length === 0) {
-            alert("No tienes palabras marcadas como favoritas aún.");
+            alert("No tienes palabras marcadas como favoritas.");
             document.getElementById('fav-filter-check').checked = false;
             isFavMode = false;
             shuffledDb = [...db].sort(() => Math.random() - 0.5);
@@ -157,7 +157,7 @@ function speakWord(text) {
 
     const utterance = new SpeechSynthesisUtterance(cleanText);
     utterance.lang = 'en-US';
-    utterance.rate = 0.90;
+    utterance.rate = 0.80;
     utterance.pitch = 1;
 
     synth.speak(utterance);
