@@ -307,14 +307,19 @@ input:checked+.slider:before {
 }
 
 .audio-btn {
+    width: 18%;
     background: none;
-    border: none;
+    align-self: center;
     font-size: 1.2rem;
     cursor: pointer;
     padding: 5px;
     transition: transform 0.3s;
     z-index: 10;
     justify-content: center;
+}
+
+.audio-btn:hover{
+    background-color: var(--primary);
 }
 
 .audio-btn:active {
@@ -369,10 +374,12 @@ input:checked+.slider:before {
 .example-box{
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 #study-example{
     text-align: center;
+    justify-content: center;
 }
 
 /* example-box */
