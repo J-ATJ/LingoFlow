@@ -6076,6 +6076,138 @@ let db = [
     "type": "(phrasal verb)",
     "spanish": "perder el control, volverse loco (de enojo o emoción)",
     "example": "The fans started to flip out when the singer unexpectedly walked into the coffee shop"
+  },
+    {
+    "english": "disregard",
+    "type": "(verb/noun)",
+    "spanish": "ignorar, desatender; también: indiferencia, desprecio",
+    "example": "Safety experts warned that a total disregard for speed limits leads to accidents"
+  },
+  {
+    "english": "elucidate",
+    "type": "(verb)",
+    "spanish": "dilucidar, esclarecer, explicar claramente",
+    "example": "The professor used a simple diagram to elucidate the theory of relativity"
+  },
+  {
+    "english": "exacerbate",
+    "type": "(verb)",
+    "spanish": "exacerbar, empeorar",
+    "example": "Scratching an insect bite will only exacerbate the irritation and cause infection"
+  },
+  {
+    "english": "instigate",
+    "type": "(verb)",
+    "spanish": "instigar, provocar, comenzar",
+    "example": "The government decided to instigate a thorough investigation into the tax fraud"
+  },
+  {
+    "english": "thoroughly",
+    "type": "(adverb)",
+    "spanish": "a fondo, exhaustivamente, por completo",
+    "example": "You need to wash the vegetables thoroughly before cooking them"
+  },
+  {
+    "english": "scrutinize",
+    "type": "(verb)",
+    "spanish": "escrutar, examinar minuciosamente, analizar con lupa",
+    "example": "Customs officers closely scrutinize all passports at the international border"
+  },
+  {
+    "english": "pivotal",
+    "type": "(adjective)",
+    "spanish": "crucial, decisivo, esencial",
+    "example": "The discovery of penicillin was a pivotal moment in the history of medicine"
+  },
+  {
+    "english": "fellowship",
+    "type": "(noun)",
+    "spanish": "beca de investigación, asociación académica/profesional",
+    "example": "He spent two years in Paris completing a medical fellowship in cardiology"
+  },
+  {
+    "english": "alleviate",
+    "type": "(verb)",
+    "spanish": "aliviar, mitigar",
+    "example": "Taking a warm bath can help alleviate muscle pain after a hard workout"
+  },
+  {
+    "english": "entail",
+    "type": "(verb)",
+    "spanish": "implicar, conllevar",
+    "example": "Renovating an old house will always entail unforeseen expenses and delays"
+  },
+  {
+    "english": "preclude",
+    "type": "(verb)",
+    "spanish": "descartar, impedir, hacer imposible",
+    "example": "A lack of formal qualifications should not preclude you from applying if you have experience"
+  },
+  {
+    "english": "put out",
+    "type": "(phrasal verb)",
+    "spanish": "extinguir (fuego); también: molestar o publicar",
+    "example": "The firefighters managed to put out the blaze before it reached the room"
+  },
+  {
+    "english": "rapport",
+    "type": "(noun)",
+    "spanish": "relación de confianza, compenetración, sintonía",
+    "example": "She excel at networking because she can build a quick rapport with clients"
+  },
+  {
+    "english": "synergy",
+    "type": "(noun)",
+    "spanish": "sinergia, gran colaboración",
+    "example": "The partnership created a powerful synergy that benefited both tech enterprises"
+  },
+  {
+    "english": "propinquity",
+    "type": "(noun)",
+    "spanish": "proximidad, cercanía (física o de relaciones)",
+    "example": "The propinquity of the tech hubs in Silicon Valley fosters constant innovation and networking"
+  },
+  {
+    "english": "spearhead",
+    "type": "(verb)",
+    "spanish": "liderar, encabezar, comandar (un proyecto o iniciativa)",
+    "example": "The marketing director will spearhead the launch of our new digital campaign"
+  },
+  {
+    "english": "streamline",
+    "type": "(verb)",
+    "spanish": "optimizar, simplificar, agilizar (un proceso)",
+    "example": "The new software will streamline the invoicing system and reduce paperwork"
+  },
+  {
+    "english": "benchmark",
+    "type": "(noun)",
+    "spanish": "punto de referencia, estándar",
+    "example": "Our customer service response time is the benchmark for the entire industry"
+  },
+  {
+    "english": "paramount",
+    "type": "(adjective)",
+    "spanish": "primordial, de suma importancia, supremo",
+    "example": "Ensuring data privacy is of paramount importance to our institution"
+  },
+  {
+    "english": "incentivize",
+    "type": "(verb)",
+    "spanish": "incentivar, motivar (mediante recompensas o bonos)",
+    "example": "The firm plans to incentivize employees by offering performance-based bonuses"
+  },
+  {
+    "english": "discrepancy",
+    "type": "(noun)",
+    "spanish": "discrepancia, divergencia, descuadre",
+    "example": "The internal audit revealed a major discrepancy between the two balance sheets"
+  },
+  {
+    "english": "garner",
+    "type": "(verb)",
+    "spanish": "cosechar, obtener, acumular (apoyo, información o atención)",
+    "example": "The innovative proposal managed to garner strong support from the executives"
   }
 
 ];
