@@ -3,12 +3,12 @@
   "name": "LingoFlow - Práctica de Vocabulario",
   "icons": [
     {
-      "src": "https://cdn-icons-png.flaticon.com/512/3898/3898082.png",
+      "src": "./icons/icon-512.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x192 any"
     },
     {
-      "src": "https://cdn-icons-png.flaticon.com/512/3898/3898082.png",
+      "src": "./icons/icon-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }

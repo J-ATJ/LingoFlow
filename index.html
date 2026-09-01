@@ -47,6 +47,7 @@
         <div class="menu">
             <button onclick="showSection('aprender')">📚 Aprender</button>
             <button onclick="showSection('jugar')">🎮 Jugar</button>
+            <button onclick="showSection('dictionary')">📖 Diccionario</button>
         </div>
     </section>
 
@@ -218,12 +219,47 @@
             </div>
     </section>
 
+
+    <!-- SECCIÓN DICCIONARIO -->
+    <section id="dictionary" class="view hidden">
+        <button class="back-btn" onclick="showSection('landing')">Volver al Inicio</button>
+
+        <!-- Barra de Abecedario Deslizable -->
+        <div id="dict-alphabet-bar" class="alphabet-bar"></div>
+
+        <!-- Lista de Palabras Limpia -->
+        <div id="dict-list" class="dictionary-list"></div>
+
+        <!-- Paginación Inferior -->
+        <div id="dict-pagination" class="dict-pagination"></div>
+    </section>
+
+    <!-- VENTANA MODAL DEL DICCIONARIO (Estilo Flashcard Back) -->
+    <div id="dict-modal" class="modal-overlay hidden" onclick="closeDictModal()">
+        <div class="modal-card" onclick="event.stopPropagation()">
+            <div class="modal-header">
+                <span id="modal-word-type" class="modal-type">---</span>
+                <button class="modal-close-btn" onclick="closeDictModal()">✕</button>
+            </div>
+            <div class="modal-body">
+                <h2 id="modal-word-en">---</h2>
+                <h3 id="modal-word-es">---</h3>
+                <div class="modal-example-box">
+                    <p id="modal-word-example">---</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <script src="db.js"></script>
     <script src="js/storage.js"></script>
     <script src="js/quiz-options.js"></script>
     <script src="js/hangman.js"></script>
     <script src="js/quiz30.js"></script>
     <script src="js/learn.js"></script>
+    <script src="js/dictionary.js"></script>
+    
     <script src="js/main.js"></script>
 
 </body>

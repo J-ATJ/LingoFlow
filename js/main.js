@@ -12,6 +12,8 @@ function showSection(sectionId) {
     // --- NUEVO: Inicialización automática de secciones ---
     if (sectionId === 'aprender') {
         initAprender(); // Esto asegura que las flashcards carguen desde la primera
+    } else if (sectionId === 'dictionary') {
+        initDictionary(); // <-- AGREGAR ESTA LÍNEA
     }
 
     // Guardamos la sección para el F5
@@ -67,7 +69,7 @@ function updateLandingStats() {
 
 // 5. ÚNICO punto de entrada al cargar la página
 window.onload = () => {
-    
+
     // IMPORTANTE: Agrega esto al inicio de tu window.onload para que recuerde el tema
     const savedTheme = localStorage.getItem('theme');
     if (savedTheme === 'dark') {
@@ -92,6 +94,8 @@ window.onload = () => {
             initHangman();
         } else if (lastSection === 'game-quiz-30') {
             initQuiz30();
+        } else if (lastSection === 'dictionary') {
+            initDictionary();
         }
 
     } else {

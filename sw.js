@@ -1,4 +1,4 @@
-const CACHE_NAME = 'lingoflow-v1';
+const CACHE_NAME = 'lingoflow-v2';
 const ASSETS = [
   './',
   './index.html',
@@ -9,7 +9,9 @@ const ASSETS = [
   './js/main.js',
   './js/quiz-options.js',
   './js/quiz30.js',
+  './js/dictionary.js',
   './js/storage.js',
+  './icons/icon-512.png',
 ];
 
 // Instalar el Service Worker y guardar archivos en caché
@@ -20,6 +22,24 @@ self.addEventListener('install', e => {
     })
   );
 });
+
+
+// --- NUEVO: Elimina cachés viejas automáticamente cuando el Service Worker se actualiza ---
+self.addEventListener('activate', e => {
+  e.waitUntil(
+    caches.keys().then(cacheNames => {
+      return Promise.all(
+        cacheNames.map(cache => {
+          if (cache !== CACHE_NAME) {
+            console.log('LingoFlow: Limpiando caché antigua...', cache);
+            return caches.delete(cache); // Borra la version anterior
+          }
+        })
+      );
+    })
+  );
+});
+
 
 // Estrategia: Stale-While-Revalidate (Muestra lo viejo rápido, actualiza en segundo plano)
 self.addEventListener('fetch', e => {

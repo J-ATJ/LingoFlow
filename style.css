@@ -318,7 +318,7 @@ input:checked+.slider:before {
     justify-content: center;
 }
 
-.audio-btn:hover{
+.audio-btn:hover {
     background-color: var(--primary);
 }
 
@@ -371,13 +371,13 @@ input:checked+.slider:before {
     border: 2px solid var(--secondary-dark);
 }
 
-.example-box{
+.example-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-#study-example{
+#study-example {
     text-align: center;
     justify-content: center;
 }
@@ -716,4 +716,237 @@ p {
     margin-bottom: 1rem;
     font-weight: bold;
     color: var(--secondary);
+}
+
+/* --- ESTILOS DEL DICCIONARIO REVISADOS --- */
+
+/* Barra del Abecedario (Por defecto en móvil: una línea deslizable) */
+.alphabet-bar {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding: 10px 5px;
+    margin: 1.5rem 0;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+}
+
+.alphabet-bar::-webkit-scrollbar {
+    display: none;
+}
+
+/* RESPONSIVE PC: Transforma el abecedario en un teclado de 2 líneas fijas de 13 letras */
+@media (min-width: 600px) {
+    .alphabet-bar {
+        display: grid;
+        grid-template-columns: repeat(13, 1fr);
+        /* 13 columnas exactas */
+        grid-template-rows: repeat(2, auto);
+        /* 2 filas fijas */
+        white-space: normal;
+        overflow-x: visible;
+    }
+
+    /* --- Agrandar textos de la modal solo en pantallas grandes --- */
+    #modal-word-en {
+        font-size: 2rem !important;
+    }
+
+    #modal-word-es {
+        font-size: 1.4rem !important;
+    }
+}
+
+.alphabet-btn {
+    background: var(--white);
+    color: var(--primary);
+    border: 1px solid var(--primary);
+    padding: 6px 0;
+    /* Ajustado para que distribuya bien en la cuadrícula de PC */
+    font-size: 0.9rem;
+    border-radius: 8px;
+    min-width: 35px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.alphabet-btn.active {
+    background: var(--primary);
+    color: var(--white);
+}
+
+/* Lista de palabras del diccionario */
+.dictionary-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 1.5rem;
+}
+
+/* La tarjeta unificada visualmente */
+.dict-row {
+    background: var(--white);
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    display: flex;
+    align-items: center;
+    padding: 0;
+    /* El padding se lo damos a las celdas internas */
+    overflow: hidden;
+}
+
+/* Celda Izquierda: Zona exclusiva de la Estrella y espacio muerto */
+.dict-cell-fav {
+    padding: 14px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    /* No tiene "cursor: pointer" general, el espacio vacío no hace nada */
+}
+
+.dict-fav-star {
+    font-size: 1.4rem;
+    color: var(--highlight);
+    cursor: pointer;
+    /* Solo la estrella muestra la manita de clic */
+    user-select: none;
+    transition: transform 0.1s;
+}
+
+.dict-fav-star:active {
+    transform: scale(1.2);
+}
+
+/* Celda Derecha: Zona exclusiva para abrir la Modal (Texto) */
+.dict-cell-text {
+    flex-grow: 1;
+    padding: 14px 18px 14px 5px;
+    /* Menos padding izquierdo para acercarse sutilmente a la estrella */
+    cursor: pointer;
+    /* Aquí sí muestra la manita de clic para la modal */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.dict-cell-text:active {
+    background-color: var(--background-hover);
+    /* Pequeño feedback visual al presionar la palabra */
+}
+
+.dict-word-text {
+    font-weight: 600;
+    color: var(--text);
+    text-transform: capitalize;
+}
+
+/* Paginación Inferior */
+.dict-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 1.5rem;
+}
+
+.dict-pagination button {
+    padding: 8px 16px;
+    background: var(--white);
+    border: 1px solid var(--secondary);
+    color: var(--text);
+    cursor: pointer;
+}
+
+.dict-pagination button:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+/* --- ESTILOS DE LA MODAL FIJA (ESTILO FLASHCARD BACK) --- */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(4px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    padding: 20px;
+}
+
+.modal-card {
+    background: var(--primary-dark);
+    color: var(--white);
+    width: 100%;
+    max-width: 600px;
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+    padding: 15px;
+    position: relative;
+    box-sizing: border-box;
+    border: 2px solid var(--primary);
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.modal-type {
+    font-size: 1rem;
+    color: var(--highlight);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.modal-close-btn {
+    background: none;
+    border: none;
+    font-size: 1.4rem;
+    color: var(--white);
+    padding: 5px;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.modal-body {
+    text-align: center;
+}
+
+#modal-word-en {
+    color: var(--white);
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    line-height: 1.4;
+    margin-bottom: 12px;
+}
+
+#modal-word-es {
+    color: var(--highlight);
+    font-size: 1.2rem;
+    line-height: 1.4;
+    margin-bottom: 40px;
+    word-wrap: break-word;
+}
+
+.modal-example-box {
+    margin: 0 15px;
+    padding: 15px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    text-align: center;
+}
+
+#modal-word-example {
+    font-style: italic;
+    color: var(--white);
+    line-height: 1.4;
+    margin: 10px;
 }
