@@ -107,7 +107,8 @@ function renderDictPagination() {
     if (totalPages <= 1) return; 
 
     const prevBtn = document.createElement('button');
-    prevBtn.textContent = '◀ Anterior';
+    prevBtn.className = 'btn-main';
+    prevBtn.textContent = 'Anterior';
     prevBtn.disabled = currentDictPage === 0;
     prevBtn.onclick = () => {
         currentDictPage--;
@@ -120,7 +121,8 @@ function renderDictPagination() {
     pageIndicator.textContent = `${currentDictPage + 1} / ${totalPages}`;
 
     const nextBtn = document.createElement('button');
-    nextBtn.textContent = 'Siguiente ▶';
+    nextBtn.className = 'btn-main';
+    nextBtn.textContent = 'Siguiente';
     nextBtn.disabled = currentDictPage >= totalPages - 1;
     nextBtn.onclick = () => {
         currentDictPage++;

@@ -552,12 +552,12 @@ p {
 /* 1. Estilos base de los botones (compartidos) */
 .key-btn {
     background: var(--primary);
-    color: white;
+    color: #fff;
     border: none;
     padding: 10px 0;
     border-radius: 5px;
     font-weight: bold;
-    font-size: 0.9rem;
+    font-size: 1rem;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -587,11 +587,11 @@ p {
     #hangman-keyboard {
         display: grid;
         grid-template-columns: repeat(9, 1fr);
-        gap: 6px;
-        margin: 20px auto 0 auto;
-        padding: 10px;
+        gap: 8px 6px;
+        margin: 25px auto 0 auto;
+        padding: 0px;
         width: 100%;
-        max-width: 400px;
+        max-width: 450px;
         box-sizing: border-box;
     }
 
@@ -851,17 +851,14 @@ p {
     margin-top: 1.5rem;
 }
 
-.dict-pagination button {
-    padding: 8px 16px;
-    background: var(--white);
-    border: 1px solid var(--secondary);
-    color: var(--text);
-    cursor: pointer;
-}
-
 .dict-pagination button:disabled {
     opacity: 0.4;
     cursor: not-allowed;
+}
+
+.dict-pagination button:hover {
+    background-color: var(--info);
+    transform: scale(0.98);
 }
 
 /* --- ESTILOS DE LA MODAL FIJA (ESTILO FLASHCARD BACK) --- */

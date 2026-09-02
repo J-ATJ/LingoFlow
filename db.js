@@ -3450,12 +3450,6 @@ let db = [
     "example": "I found myself in a pickle when I realized I had left my wallet inside the locked house"
   },
   {
-    "english": "cling",
-    "type": "(verb)",
-    "spanish": "agarrarse, aferrarse, pegarse",
-    "example": "The wet leaves began to cling to the bottom of my boots as I walked through the mud"
-  },
-  {
     "english": "unnerving",
     "type": "(adjective)",
     "spanish": "desconcertante",
@@ -3740,7 +3734,7 @@ let db = [
   {
     "english": "draw",
     "type": "(verb)",
-    "spanish": "atraer",
+    "spanish": "atraer, mover, sacar",
     "example": "The bright neon sign was designed to draw the attention of people walking past the store"
   },
   {
@@ -3860,7 +3854,7 @@ let db = [
   {
     "english": "enjoin",
     "type": "(verb)",
-    "spanish": "ordenar, mandar, imponer",
+    "spanish": "exigir u obligar a alguien a hacer o dejar de hacer algo",
     "example": "The judge decided to enjoin the company from selling the product until the safety investigation was complete"
   },
   {
@@ -3952,12 +3946,6 @@ let db = [
     "type": "(adjective)",
     "spanish": "de muy mala calidad",
     "example": "We stayed at a crummy hotel near the airport that had noisy pipes and very uncomfortable beds"
-  },
-  {
-    "english": "bury",
-    "type": "(verb)",
-    "spanish": "enterrar, cubrir, esconder",
-    "example": "The dog likes to bury its favorite bone in the backyard and dig it up a few days later"
   },
   {
     "english": "despise",
@@ -4802,7 +4790,7 @@ let db = [
   {
     "english": "entice",
     "type": "(verb)",
-    "spanish": "incitar, atraer",
+    "spanish": "incitar, atraer, tentar",
     "example": "The shopkeeper tried to entice customers into the store by offering free samples of gourmet chocolate"
   },
   {
@@ -5314,12 +5302,6 @@ let db = [
     "type": "(phrasal verb)",
     "spanish": "desanimar, entristecer",
     "example": "I hate to bum you out, but the concert has been cancelled due to the singer's throat infection"
-  },
-  {
-    "english": "flair",
-    "type": "(noun)",
-    "spanish": "estilo",
-    "example": "She decorated her new apartment with a creative flair that made it feel both modern and cozy"
   },
   {
     "english": "landslide",
@@ -5862,12 +5844,6 @@ let db = [
     "example": "The director received the highest accolade in the film industry when she won the Academy Award for Best Picture"
   },
   {
-    "english": "entice",
-    "type": "(verb)",
-    "spanish": "incitar, tentar o atraer",
-    "example": "The smell of freshly baked cookies was enough to entice the children into the kitchen before dinner was ready"
-  },
-  {
     "english": "attire",
     "type": "(noun)",
     "spanish": "atuendo",
@@ -6077,7 +6053,7 @@ let db = [
     "spanish": "perder el control, volverse loco (de enojo o emoción)",
     "example": "The fans started to flip out when the singer unexpectedly walked into the coffee shop"
   },
-    {
+  {
     "english": "disregard",
     "type": "(verb/noun)",
     "spanish": "ignorar, desatender; también: indiferencia, desprecio",
@@ -6208,6 +6184,24 @@ let db = [
     "type": "(verb)",
     "spanish": "cosechar, obtener, acumular (apoyo, información o atención)",
     "example": "The innovative proposal managed to garner strong support from the executives"
+  },
+  {
+    "english": "draw to a close/an end",
+    "type": "(idiom)",
+    "spanish": "estar a punto de acabar, llegar a su fin gradualmente",
+    "example": "As his presidency drew to a close, he started to make plans for the future"
+  },
+  {
+    "english": "core",
+    "type": "(noun)",
+    "spanish": "parte más básica e importante de algo, el núcleo",
+    "example": "The core drive of life is survival, continuity, and adaptation"
+  },
+  {
+    "english": "drive",
+    "type": "(verb/noun)",
+    "spanish": "impulsar, mover o hacer funcionar; también: impulso",
+    "example": "Hunger drives animals to hunt"
   }
 
 ];
